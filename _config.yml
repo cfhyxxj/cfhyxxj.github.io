@@ -12,7 +12,7 @@ github_repo: "https://github.com/cfhyxxj/cfhyxxj.github.io.git" # you code repos
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "花开堪折直须折,莫待无花空折枝"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/zz.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
