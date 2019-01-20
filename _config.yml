@@ -97,18 +97,18 @@ service-worker: true
 
 
 # Friends
-!friends: [
-    {
-        title: "",
-        href: ""
-    },{
-        title: "",
-        href: ""
-    },{
-        title: "",
-        href: ""
-    },{
-        title: "",
-        href: ""
-    }
-]
+#friends: [
+ #   {
+       # title: "",
+  #      href: ""
+  #  },{
+  #      title: "",
+  #      href: ""
+  #  },{
+  #      title: "",
+  #      href: ""
+  #  },{
+  #      title: "",
+  #      href: ""
+  #  }
+#]
