@@ -118,6 +118,7 @@ tags:
 * _config.yml   全局配置文件
 * _posts 存放博客文章的文件夹
 * img  存放个人博客网站上少量的图片(博客文章里插入的是图片外链，图片放置在图床，加快了博客加载速度，后面还会提到)
+* 想自己设计界面，可以看这里[jekyll文档](https://www.jekyll.com.cn/docs/structure/)
 
 
 
@@ -158,7 +159,9 @@ sidebar-about-description: "花开堪折直须折,莫待无花空折枝"  #侧�
 sidebar-avatar: /img/zz.png      #本领想用二柱子头像的，但是觉得并不合适
 ```
 
+### 修改个人介绍
 
+在about.html文件里，可对照着改
 
 ### 社交账号
 
@@ -322,15 +325,17 @@ title，subtitle，date，author，header-img，tags全部由自己设定，最�
 
 这里我采用github-desktop传文章
 
-1. **将仓库中的代码下载到本地 (Clone Github Project to Local Repository)**
+1. **将仓库中的项目下载到本地 (Clone Github Project to Local Repository)**
 
    首先，你不想每次进入github网站对你的项目文件编辑修改，你可以把它们下载到你的本地磁盘上，然后对项目文件的每一次修改都会被记录下来，可以通过github-desktop同步修改到你的远程仓库上(即本地修改同步到远程仓库)
 
-   双击加号
+   点击加号
 
 ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/UFmT5GGrit80.png?imageslim)
 
 ​	选择clone，你可以看到你在github上存放的（尚未下载到本地的）项目列表。选中一个想要下载到本地的项目，选择clone Repository，然后选择本地路径以存放项目文件夹。
+
+项目文件夹可以随意更换位置，不信你可以试试，hhh
 
 
 
@@ -338,8 +343,116 @@ title，subtitle，date，author，header-img，tags全部由自己设定，最�
 
 
 
-2. **在本地更新网页端的改变 （pull）**
+2. **在本地仓库更新网页端的改变 （pull）**
 
-   假如你是和你的合作者一起完成一个项目，他又新提交了一个新文件改变到该项目，你很感兴趣，想要同步到本地，你可以这样做：点击【Repository】-【Pull】，接着，你就可以看到本地仓库里出现了合作者提交的新文件。
+   假如你是和你的合作者一起完成一个项目，他又新提交了一个新文件改变到该项目，你很感兴趣，想要同步到本地，你可以这样做：在网站上点击【Repository】-【Pull】，接着，你就可以看到本地仓库里出现了合作者提交的新文件。
 
+3.  **在本地提交新的代码版本到仓库 (push local changes to remote repository)**
+
+   修改本地仓库文件后，打开github-desktop，点击changes，有时候可能没有(博主第一次就是这样，一直试了好多次)，那就切换github-desktop界面，直到它出现changes
+
+   然后填下(Summary)标题和注释(Description)就提交(Commit)
+
+   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/1TR5JtqjwrBB.png?imageslim)
+
+
+commit后，你会发现你的项目历史结点上多了一个新的环，代表你的上一次commit记录,如下图
+
+![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/SdrnNV417ys2.png?imageslim)
+
+你可以提交一次，然后点击Sync同步到你的远程仓库，也可以提交多次后迭代，再同步
+
+同步后，前面的环消失了
+
+![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/5xe1DLxuCYVq.png?imageslim)
+
+4. **创建新的分支 (creating new branch)**
+
+   比如，你和朋友一起翻译一本书，你负责翻译成英文，你朋友负责翻译成日文，那么你们也可以分别在两个分支上操作，但这两个分支都属于这本书的翻译项目
+
+   简而言之，所有分支同属一个项目，但每个分支可以互相独立，互不干扰，而有需要时，任意两个分支也可以合并。
+
+   创建新的分支
+
+   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/kwp7FonVCeSG.png?imageslim)
+
+​      新的分支publish在远程仓库
+
+![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/FMPINXsfKKIl.png?imageslim)
+
+pull request
+
+![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/N2IgWVuiWR1x.png?imageslim)
+
+**为什么要pull request？**
+
+很多情况下，很多人是fork(拉取)别人的项目，然后自己进行改进，但是你对别人的项目是没有改动权力的，但是如果你觉得自己的改进非常棒，想贡献自己的代码并成为原项目的contributor之一，于是你就需要发起一个pull request，通过审核，请求原项目的负责人将你的代码合并的原项目中
+
+
+
+## jekyll博客本地调试
+
+github远程提交有延迟，不适合博客进行调试，所以我们需要用到jekyll本地调试
+
+第一次安装有三个步骤
+
+1. 安装Ruby
+
+   进入[Ruby下载链接](http://rubyinstaller.org/downloads/)，根据自己的机型下载对应版本
+
+   博主第一次下载的是最新的，没成功，翻墙下载卡到一半不动了，所以还是果断下了以前的版本
+
+   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/yeYccIj3B80R.png?imageslim)
+
+   安装过程中，这两个勾上(默认是没有勾上)
+
+   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/KwG4mlAgDOax.png?imageslim)
+
+   安装完后测试是否安装成功，命令行输入：ruby -v
+
+   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/fYCK79AmlXcc.png?imageslim)
+
+2. DevKit下载
+
+   还是在那个[网站](http://rubyinstaller.org/downloads/),拉到下面，下载DevKit
+
+   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/N64sLRDCVBdb.png?imageslim)
+
+   在你保存DevKit的文件夹里打开命令行
+
+   例如我保存在D:/DevKit,我先进入这个文件夹，然后按住shift，点击鼠标右键即可打开命令行
+
+   然后输入ruby dk.rb init，自动在文件夹中生成config.yml文件
+
+   用记事本打开这个文件，在文件末尾行添加Ruby文件夹地址，例如我的是C:/Ruby23-x64,然后保存退出
+
+
+
+   3.安装jekyll
+
+   ​	以下命令都是在命令行里输入
+
+   ​	gem是ruby自带的
+
+   ​	先测试gem是否安装完毕：gem -v
+
+   ​	![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/tkDKT0VosH6Q.png?imageslim)
+
+   然后利用gem安装jekyll：gem install jekyll
+
+   测试jekyll是否安装完毕：jekyll -v
+
+   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/2MO2BPkNL3bP.png?imageslim)
+
+   进入你的本地仓库 xxx.github.io这个文件夹中，打开命令行输入jekyll serve，一般会提示出现下面的Error，即是缺少jekyll-paginate
+
+   直接在命令行里输入命令：gem install jekyll-paginate
+
+   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/V4Nmcqn9sGmO.png?imageslim)
+
+
+
+   然后再进入你的本地仓库 xxx.github.io这个文件夹中，打开命令行里输入jekyll serve，你的博客就运行在本地4000端口上，复制这个网址在浏览器，你的每一次改动，博客都会动态变化，当所有改动完后，一次性性提交所有的changes即可
+
+   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/YseogsiJGNOM.png?imageslim)
 
