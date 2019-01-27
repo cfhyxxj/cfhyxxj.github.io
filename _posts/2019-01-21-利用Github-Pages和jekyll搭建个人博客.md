@@ -325,11 +325,11 @@ title，subtitle，date，author，header-img，tags全部由自己设定，最�
 
 这里我采用github-desktop传文章
 
-1. **将仓库中的项目下载到本地 (Clone Github Project to Local Repository)**
+#### 1.将仓库中的项目下载到本地 (Clone Github Project to Local Repository)
 
-   首先，你不想每次进入github网站对你的项目文件编辑修改，你可以把它们下载到你的本地磁盘上，然后对项目文件的每一次修改都会被记录下来，可以通过github-desktop同步修改到你的远程仓库上(即本地修改同步到远程仓库)
+​	首先，你不想每次进入github网站对你的项目文件编辑修改，你可以把它们下载到你的本地磁盘上，然后对项目文件的每一次修改都会被记录下来，可以通过github-desktop同步修改到你的远程仓库上(即本地修改同步到远程仓库)
 
-   点击加号
+点击加号
 
 ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/UFmT5GGrit80.png?imageslim)
 
@@ -343,11 +343,11 @@ title，subtitle，date，author，header-img，tags全部由自己设定，最�
 
 
 
-2. **在本地仓库更新网页端的改变 （pull）**
+#### 2.在本地仓库更新网页端的改变 （pull)
 
-   假如你是和你的合作者一起完成一个项目，他又新提交了一个新文件改变到该项目，你很感兴趣，想要同步到本地，你可以这样做：在网站上点击【Repository】-【Pull】，接着，你就可以看到本地仓库里出现了合作者提交的新文件。
+​	假如你是和你的合作者一起完成一个项目，他又新提交了一个新文件改变到该项目，你很感兴趣，想要同步到本地，你可以这样做：在网站上点击【Repository】-【Pull】，接着，你就可以看到本地仓库里出现了合作者提交的新文件。
 
-3.  **在本地提交新的代码版本到仓库 (push local changes to remote repository)**
+#### 3. 在本地提交新的代码版本到仓库 (push local changes to remote repository)
 
    修改本地仓库文件后，打开github-desktop，点击changes，有时候可能没有(博主第一次就是这样，一直试了好多次)，那就切换github-desktop界面，直到它出现changes
 
@@ -366,15 +366,15 @@ commit后，你会发现你的项目历史结点上多了一个新的环，代�
 
 ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/5xe1DLxuCYVq.png?imageslim)
 
-4. **创建新的分支 (creating new branch)**
+#### 4. 创建新的分支 (creating new branch)
 
-   比如，你和朋友一起翻译一本书，你负责翻译成英文，你朋友负责翻译成日文，那么你们也可以分别在两个分支上操作，但这两个分支都属于这本书的翻译项目
+比如，你和朋友一起翻译一本书，你负责翻译成英文，你朋友负责翻译成日文，那么你们也可以分别在两个分支上操作，但这两个分支都属于这本书的翻译项目
 
-   简而言之，所有分支同属一个项目，但每个分支可以互相独立，互不干扰，而有需要时，任意两个分支也可以合并。
+简而言之，所有分支同属一个项目，但每个分支可以互相独立，互不干扰，而有需要时，任意两个分支也可以合并。
 
-   创建新的分支
+创建新的分支
 
-   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/kwp7FonVCeSG.png?imageslim)
+![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/kwp7FonVCeSG.png?imageslim)
 
 ​      新的分支publish在远程仓库
 
@@ -396,39 +396,39 @@ github远程提交有延迟，不适合博客进行调试，所以我们需要�
 
 第一次安装有三个步骤
 
-1. 安装Ruby
+#### 1. 安装Ruby
 
-   进入[Ruby下载链接](http://rubyinstaller.org/downloads/)，根据自己的机型下载对应版本
+进入[Ruby下载链接](http://rubyinstaller.org/downloads/)，根据自己的机型下载对应版本
 
-   博主第一次下载的是最新的，没成功，翻墙下载卡到一半不动了，所以还是果断下了以前的版本
+博主第一次下载的是最新的，没成功，翻墙下载卡到一半不动了，所以还是果断下了以前的版本
 
-   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/yeYccIj3B80R.png?imageslim)
+![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/yeYccIj3B80R.png?imageslim)
 
-   安装过程中，这两个勾上(默认是没有勾上)
+安装过程中，这两个勾上(默认是没有勾上)
 
-   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/KwG4mlAgDOax.png?imageslim)
+![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/KwG4mlAgDOax.png?imageslim)
 
-   安装完后测试是否安装成功，命令行输入：ruby -v
+安装完后测试是否安装成功，命令行输入：ruby -v
 
-   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/fYCK79AmlXcc.png?imageslim)
+![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/fYCK79AmlXcc.png?imageslim)
 
-2. DevKit下载
+#### 2. DevKit下载
 
-   还是在那个[网站](http://rubyinstaller.org/downloads/),拉到下面，下载DevKit
+还是在那个[网站](http://rubyinstaller.org/downloads/),拉到下面，下载DevKit
 
-   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/N64sLRDCVBdb.png?imageslim)
+![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/N64sLRDCVBdb.png?imageslim)
 
-   在你保存DevKit的文件夹里打开命令行
+在你保存DevKit的文件夹里打开命令行
 
-   例如我保存在D:/DevKit,我先进入这个文件夹，然后按住shift，点击鼠标右键即可打开命令行
+例如我保存在D:/DevKit,我先进入这个文件夹，然后按住shift，点击鼠标右键即可打开命令行
 
-   然后输入ruby dk.rb init，自动在文件夹中生成config.yml文件
+然后输入ruby dk.rb init，自动在文件夹中生成config.yml文件
 
-   用记事本打开这个文件，在文件末尾行添加Ruby文件夹地址，例如我的是C:/Ruby23-x64,然后保存退出
+用记事本打开这个文件，在文件末尾行添加Ruby文件夹地址，例如我的是C:/Ruby23-x64,然后保存退出
 
 
 
-   3.安装jekyll
+   #### 3. 安装jekyll
 
    ​	以下命令都是在命令行里输入
 
