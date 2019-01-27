@@ -1,4 +1,6 @@
 ---
+
+
 layout:     post
 title:      利用Github Pages和jekyll创建个人博客
 subtitle:   博客创建过程中踩过的坑与个人心得
@@ -319,4 +321,25 @@ title，subtitle，date，author，header-img，tags全部由自己设定，最�
 将文章上传到自己的博客，可以下载[github-desktop](https://desktop.github.com/),也可以通过git命令的方式传，
 
 这里我采用github-desktop传文章
+
+1. **将仓库中的代码下载到本地 (Clone Github Project to Local Repository)**
+
+   首先，你不想每次进入github网站对你的项目文件编辑修改，你可以把它们下载到你的本地磁盘上，然后对项目文件的每一次修改都会被记录下来，可以通过github-desktop同步修改到你的远程仓库上(即本地修改同步到远程仓库)
+
+   双击加号
+
+![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/UFmT5GGrit80.png?imageslim)
+
+​	选择clone，你可以看到你在github上存放的（尚未下载到本地的）项目列表。选中一个想要下载到本地的项目，选择clone Repository，然后选择本地路径以存放项目文件夹。
+
+
+
+![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/NwV0tKmP0yc1.png?imageslim)
+
+
+
+2. **在本地更新网页端的改变 （pull）**
+
+   假如你是和你的合作者一起完成一个项目，他又新提交了一个新文件改变到该项目，你很感兴趣，想要同步到本地，你可以这样做：点击【Repository】-【Pull】，接着，你就可以看到本地仓库里出现了合作者提交的新文件。
+
 
