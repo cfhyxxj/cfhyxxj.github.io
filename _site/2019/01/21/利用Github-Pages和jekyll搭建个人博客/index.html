@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="charryglomc">
+    <meta name="keywords"  content="春风化雨的博客, cfhyxxj">
+    <meta name="theme-color" content="#000000">
+    
+    <title>利用Github Pages和jekyll创建个人博客 - 春风化雨的博客</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <!-- Safari Webpage Icon    by-BY -->
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/2019/01/21/%E5%88%A9%E7%94%A8Github-Pages%E5%92%8Cjekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">About Me</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/post-19-01-21.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/post-19-01-21.jpg')
+    }
+
+    
+</style>
+<header class="intro-header" >
+    <div class="header-mask"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#github" title="github">github</a>
+                        
+                        <a class="tag" href="/tags/#jekyll" title="jekyll">jekyll</a>
+                        
+                        <a class="tag" href="/tags/#blog" title="blog">blog</a>
+                        
+                    </div>
+                    <h1>利用Github Pages和jekyll创建个人博客</h1>
+                    
+                    
+                    <h2 class="subheading">博客创建过程中踩过的坑与个人心得</h2>
+                    
+                    <span class="meta">Posted by 春风化雨 on January 21, 2019</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<blockquote>
+  <p>不积跬步，无以至千里</p>
+
+  <p>不积小流，无以成江海</p>
+</blockquote>
+
+<h1 id="前言">前言</h1>
+
+<hr />
+
+<p>博主今年大三，现就读于西安一所211高校，是一个对未来迷茫的考验党。</p>
+
+<p>之前也折腾过一个博客，那时是用wordpress搭建的，还花了钱买了服务器（腾讯云学生价120/年），但是一直没动手写文章，因为觉得麻烦，不如去学点新东西，新技术（比如近些年来的，机器学习深度学习之类的），古人说的好：<strong>术业有专攻</strong>，盲目追求技术的后果就是<strong>什么都会一点，什么都不会</strong>，于是索性就想着再弄一个<strong>不花钱</strong>的博客，来记录自己的学习历程和心得，毕竟没有过目不忘的脑子，只能靠多巩固来弥补技术间隙性的遗忘。</p>
+
+<hr />
+
+<h1 id="正文">正文</h1>
+
+<hr />
+
+<p><em>本篇文章采用Github Pages+jekyll快速搭建个人博客</em></p>
+
+<h3 id="1注册登录你的github">1.注册+登录你的github</h3>
+
+<p>首先，你得拥有一个github账号，如果没有，赶紧去注册一个吧!  <a href="http://github.com/">Github</a></p>
+
+<p><a href="https://imgchr.com/i/kPtvJ1"><img src="https://s2.ax1x.com/2019/01/21/kPtvJ1.md.png" alt="kPtvJ1.md.png" /></a></p>
+
+<p>​      <strong>sign up</strong> 注册一个账号</p>
+
+<p>​      <strong>sign in</strong>  登录你的账号</p>
+
+<h3 id="2fork拉取我的博客模板">2.Fork(拉取)我的博客模板</h3>
+
+<p>登录github账号后，进入<a href="https://github.com/cfhyxxj/cfhyxxj.github.io/">我的仓库</a>中,点击Fork，就可拉取到我的博客模板到自己的仓库中</p>
+
+<p><a href="https://imgchr.com/i/kPNsYR"><img src="https://s2.ax1x.com/2019/01/21/kPNsYR.md.png" alt="kPNsYR.md.png" /></a></p>
+
+<h3 id="3修改repository仓库名">3.修改repository(仓库)名</h3>
+
+<p>在第2步的基础上，点击setting</p>
+
+<p><a href="https://imgchr.com/i/kPNTfI"><img src="https://s2.ax1x.com/2019/01/21/kPNTfI.md.png" alt="kPNTfI.md.png" /></a></p>
+
+<p>修改repository name 为:         你的github名.github.io</p>
+
+<p>例如我的github账号是：cfhyxxj，则我的这个repository name 应改为： cfhyxxj.github.io</p>
+
+<p>接着点击Rename即可</p>
+
+<p><a href="https://imgchr.com/i/kPUCpq"><img src="https://s2.ax1x.com/2019/01/21/kPUCpq.md.png" alt="kPUCpq.md.png" /></a></p>
+
+<h3 id="4检查上述步骤是否成功">4.检查上述步骤是否成功</h3>
+
+<p>在浏览器上输入网址：你的github名.github.io</p>
+
+<p>会出现如下图所示的博客界面，不过还得修改下，才能改成你自己的博客</p>
+
+<p><a href="https://imgchr.com/i/kPcB7t"><img src="https://s2.ax1x.com/2019/01/21/kPcB7t.md.png" alt="kPcB7t.md.png" /></a></p>
+
+<h2 id="整个网站的架构">整个网站的架构</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── _config.yml
+├── _drafts
+|   ├── begin-with-the-crazy-ideas.textile
+|   └── on-simplicity-in-technology.markdown
+├── _includes
+|   ├── footer.html
+|   └── header.html
+├── _layouts
+|   ├── default.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   └── 2009-04-26-barcamp-boston-4-roundup.textile
+├── _data
+|   └── members.yml
+├── _site
+├── img
+└── index.html
+</code></pre></div></div>
+
+<p>其中重要的就是这几个文件：</p>
+
+<ul>
+  <li>_config.yml   全局配置文件</li>
+  <li>_posts 存放博客文章的文件夹</li>
+  <li>img  存放个人博客网站上少量的图片(博客文章里插入的是图片外链，图片放置在图床，加快了博客加载速度，后面还会提到)</li>
+  <li>想自己设计界面，可以看这里<a href="https://www.jekyll.com.cn/docs/structure/">jekyll文档</a></li>
+</ul>
+
+<h2 id="修改全局配置">修改全局配置</h2>
+
+<p>在你的仓库里，找到_config.yml文件，双击打开</p>
+
+<p>然后对此文件进行修改(可对照下面设置和网站页面改)</p>
+
+<p><a href="https://imgchr.com/i/kP2hF0"><img src="https://s2.ax1x.com/2019/01/21/kP2hF0.md.png" alt="kP2hF0.md.png" /></a></p>
+
+<h3 id="网站设置">网站设置</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Site settings
+title: charryglomc   #这个标题会显示在左上角(返回主页)和header图片中间字体
+SEOTitle: 春风化雨的博客  #这个标题显示在浏览器标签页上
+header-img: img/post-bg-desk.jpg  #主页上部图片
+email: 798577670@qq.com  
+description: ""
+keyword: "春风化雨的博客, cfhyxxj"
+url: "http://cfhyxxj.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/cfhyxxj/cfhyxxj.github.io.git" # you code repository
+
+</code></pre></div></div>
+
+<h3 id="侧边栏">侧边栏</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Sidebar settings
+sidebar: true                           # true为有侧边栏
+sidebar-about-description: "花开堪折直须折,莫待无花空折枝"  #侧边栏描述
+sidebar-avatar: /img/zz.png      #本领想用二柱子头像的，但是觉得并不合适
+</code></pre></div></div>
+
+<h3 id="修改个人介绍">修改个人介绍</h3>
+
+<p>在about.html文件里，可对照着改</p>
+
+<h3 id="社交账号">社交账号</h3>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2178672-ec775a22f76e2f40.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># SNS settings
+RSS: false
+# weibo_username:     
+#zhihu_username:     
+github_username:    cfhyxxj   #不填就注释掉，博主只想要star，hhh
+#facebook_username:  
+#jianshu_username:   
+#twitter_username:  
+</code></pre></div></div>
+
+<h3 id="评论系统">评论系统</h3>
+
+<p>我推荐用<strong>gitalk</strong>评论插件，<strong>gitalk</strong>是由github账号登录，接下来改一下下面的参数就好了</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID:  xxxxxxxxxxxxxxx                  #生成的clientID
+  clientSecret:  xxxxxxxxxxxxxx              #生成的clientSecret
+  repo: cfhyxxj.github.io    #改为自己的仓库名称
+  owner: cfhyxxj    #改为自己的github用户名
+  admin: cfhyxxj    #同上
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+</code></pre></div></div>
+
+<h4 id="获取clientid和clientsecret">获取clientID和clientSecret</h4>
+
+<p>首先申请一个<a href="https://github.com/settings/applications/new">Github Application</a>，如下照着改为自己的就行了</p>
+
+<p><img src="https://s2.ax1x.com/2019/01/21/kPWM8K.png" alt="kPWM8K.png" /></p>
+
+<p>登录后，往下滑，就可看到自己的<strong>clientID</strong>和<strong>clientSecret</strong></p>
+
+<h3 id="网站统计">网站统计</h3>
+
+<p>集成了 <a href="http://tongji.baidu.com/web/welcome/login">Baidu Analytics</a> 和 <a href="http://www.google.cn/analytics/">Google Analytics</a>，到各个网站注册拿到<strong>track_id</strong>替换下面的就可以了</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Analytics settings
+# Baidu Analytics
+ba_track_id: xxxxxxxxxxxxxxxxxxxxxxxx
+
+# Google Analytics
+ga_track_id: 'xxxxxxxxx'            # Format: UA-xxxxxx-xx
+ga_domain: auto
+</code></pre></div></div>
+
+<h3 id="好友">好友</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>friends: [
+    {
+        title: "简书·BY",
+        href: "http://www.jianshu.com/u/e71990ada2fd"
+    },{
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
+    }
+]     #如不想用可用#注释掉，但要一行一行注释
+</code></pre></div></div>
+
+<h3 id="标签">标签</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+
+</code></pre></div></div>
+
+<h3 id="提交保存">提交保存</h3>
+
+<p>将网页拉到底部，提交所有的修改</p>
+
+<p><a href="https://imgchr.com/i/kPWXRK"><img src="https://s2.ax1x.com/2019/01/21/kPWXRK.md.png" alt="kPWXRK.md.png" /></a></p>
+
+<h3 id="购买域名">购买域名</h3>
+
+<p>很幸运还是学生，买域名有优惠，跑题了，hhh</p>
+
+<p>我买的阿里的域名.top，一年9RMB，是不是觉得特别便宜呢？</p>
+
+<p>可用淘宝或支付宝登录，然后搜索栏搜索<strong>域名</strong>，输入你想设定的域名，看有没有，然后购买</p>
+
+<p>买了之后要进行<strong><em>域名解析</em></strong></p>
+
+<h3 id="ping--ip">ping  ip</h3>
+
+<p>在这之前要在cmd命令行里ping一下 你的github账号.github.io的ip地址</p>
+
+<p>例如我的：</p>
+
+<p>ping  cfhyxxj.github.io</p>
+
+<p>(可能有不同，最好自己ping一下，这个ip地址应该是最新美国Github Pages服务器的地址)</p>
+
+<p><a href="https://imgchr.com/i/kPfKds"><img src="https://s2.ax1x.com/2019/01/21/kPfKds.md.png" alt="kPfKds.md.png" /></a></p>
+
+<h3 id="域名解析">域名解析</h3>
+
+<p>进入阿里云控制台，双击域名，进入域名控制台，双击解析</p>
+
+<p><a href="https://imgchr.com/i/kPfUeJ"><img src="https://s2.ax1x.com/2019/01/21/kPfUeJ.md.png" alt="kPfUeJ.md.png" /></a></p>
+
+<p>添加两条记录解析</p>
+
+<p>记录类型两条都为A</p>
+
+<p>主机记录一个为@，一个为www</p>
+
+<p>记录值为刚才ping的ip地址</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190121/NsJuozcyMOs0.png?imageslim" alt="mark" /></p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190121/HP4bjbTVE8Lb.png?imageslim" alt="mark" /></p>
+
+<h3 id="修改cname">修改CNAME</h3>
+
+<p>修改仓库下的CNAME文件内容，改为自己刚注册的域名</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190122/9kVWbW747h9K.png?imageslim" alt="mark" /></p>
+
+<h3 id="测试">测试</h3>
+
+<p>在浏览器输入域名，直接成功跳转到自己的博客，大功告成！</p>
+
+<h3 id="写文章">写文章</h3>
+
+<p>要写文章首先要学习一下<strong>markdown语法</strong>，可以看下<a href="http://cfhyxxj.top/2019/01/22/markdown基本语法/">markdown基本语法</a></p>
+
+<p>另外安利一个mardown神器：typora，界面简洁，写下即可渲染。 <a href="https://www.typora.io/#windows">typora下载链接</a></p>
+
+<p>博客文章最后是以.md文件的形式保存，.md标题是由下图框框内的yaml自动决定的，也就是你写博客前面要照着如下写</p>
+
+<p>title，subtitle，date，author，header-img，tags全部由自己设定，最后传文章显示到博客上</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190122/WdkrEYR9W5yF.png?imageslim" alt="mark" /></p>
+
+<h3 id="传文章">传文章</h3>
+
+<p>将文章上传到自己的博客，可以下载<a href="https://desktop.github.com/">github-desktop</a>,也可以通过git命令的方式传，</p>
+
+<p>这里我采用github-desktop传文章</p>
+
+<h4 id="1将仓库中的项目下载到本地-clone-github-project-to-local-repository">1.将仓库中的项目下载到本地 (Clone Github Project to Local Repository)</h4>
+
+<p>​	首先，你不想每次进入github网站对你的项目文件编辑修改，你可以把它们下载到你的本地磁盘上，然后对项目文件的每一次修改都会被记录下来，可以通过github-desktop同步修改到你的远程仓库上(即本地修改同步到远程仓库)</p>
+
+<p>点击加号</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/UFmT5GGrit80.png?imageslim" alt="mark" /></p>
+
+<p>​	选择clone，你可以看到你在github上存放的（尚未下载到本地的）项目列表。选中一个想要下载到本地的项目，选择clone Repository，然后选择本地路径以存放项目文件夹。</p>
+
+<p>项目文件夹可以随意更换位置，不信你可以试试，hhh</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/NwV0tKmP0yc1.png?imageslim" alt="mark" /></p>
+
+<h4 id="2在本地仓库更新网页端的改变-pull">2.在本地仓库更新网页端的改变 （pull)</h4>
+
+<p>​	假如你是和你的合作者一起完成一个项目，他又新提交了一个新文件改变到该项目，你很感兴趣，想要同步到本地，你可以这样做：在网站上点击【Repository】-【Pull】，接着，你就可以看到本地仓库里出现了合作者提交的新文件。</p>
+
+<h4 id="3-在本地提交新的代码版本到仓库-push-local-changes-to-remote-repository">3. 在本地提交新的代码版本到仓库 (push local changes to remote repository)</h4>
+
+<p>修改本地仓库文件后，打开github-desktop，点击changes，有时候可能没有(博主第一次就是这样，一直试了好多次)，那就切换github-desktop界面，直到它出现changes</p>
+
+<p>然后填下(Summary)标题和注释(Description)就提交(Commit)</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/1TR5JtqjwrBB.png?imageslim" alt="mark" /></p>
+
+<p>commit后，你会发现你的项目历史结点上多了一个新的环，代表你的上一次commit记录,如下图</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/SdrnNV417ys2.png?imageslim" alt="mark" /></p>
+
+<p>你可以提交一次，然后点击Sync同步到你的远程仓库，也可以提交多次后迭代，再同步</p>
+
+<p>同步后，前面的环消失了</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/5xe1DLxuCYVq.png?imageslim" alt="mark" /></p>
+
+<h4 id="4-创建新的分支-creating-new-branch">4. 创建新的分支 (creating new branch)</h4>
+
+<p>比如，你和朋友一起翻译一本书，你负责翻译成英文，你朋友负责翻译成日文，那么你们也可以分别在两个分支上操作，但这两个分支都属于这本书的翻译项目</p>
+
+<p>简而言之，所有分支同属一个项目，但每个分支可以互相独立，互不干扰，而有需要时，任意两个分支也可以合并。</p>
+
+<p>创建新的分支</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/kwp7FonVCeSG.png?imageslim" alt="mark" /></p>
+
+<p>​      新的分支publish在远程仓库</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/FMPINXsfKKIl.png?imageslim" alt="mark" /></p>
+
+<p>pull request</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/N2IgWVuiWR1x.png?imageslim" alt="mark" /></p>
+
+<p><strong>为什么要pull request？</strong></p>
+
+<p>很多情况下，很多人是fork(拉取)别人的项目，然后自己进行改进，但是你对别人的项目是没有改动权力的，但是如果你觉得自己的改进非常棒，想贡献自己的代码并成为原项目的contributor之一，于是你就需要发起一个pull request，通过审核，请求原项目的负责人将你的代码合并的原项目中</p>
+
+<h2 id="jekyll博客本地调试">jekyll博客本地调试</h2>
+
+<p>github远程提交有延迟，不适合博客进行调试，所以我们需要用到jekyll本地调试</p>
+
+<p>第一次安装有三个步骤</p>
+
+<h4 id="1-安装ruby">1. 安装Ruby</h4>
+
+<p>进入<a href="http://rubyinstaller.org/downloads/">Ruby下载链接</a>，根据自己的机型下载对应版本</p>
+
+<p>博主第一次下载的是最新的，没成功，翻墙下载卡到一半不动了，所以还是果断下了以前的版本</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/yeYccIj3B80R.png?imageslim" alt="mark" /></p>
+
+<p>安装过程中，这两个勾上(默认是没有勾上)</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/KwG4mlAgDOax.png?imageslim" alt="mark" /></p>
+
+<p>安装完后测试是否安装成功，命令行输入：ruby -v</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/fYCK79AmlXcc.png?imageslim" alt="mark" /></p>
+
+<h4 id="2-devkit下载">2. DevKit下载</h4>
+
+<p>还是在那个<a href="http://rubyinstaller.org/downloads/">网站</a>,拉到下面，下载DevKit</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/N64sLRDCVBdb.png?imageslim" alt="mark" /></p>
+
+<p>在你保存DevKit的文件夹里打开命令行</p>
+
+<p>例如我保存在D:/DevKit,我先进入这个文件夹，然后按住shift，点击鼠标右键即可打开命令行</p>
+
+<p>然后输入ruby dk.rb init，自动在文件夹中生成config.yml文件</p>
+
+<p>用记事本打开这个文件，在文件末尾行添加Ruby文件夹地址，例如我的是C:/Ruby23-x64,然后保存退出</p>
+
+<p>#### 3. 安装jekyll</p>
+
+<p>​	以下命令都是在命令行里输入</p>
+
+<p>​	gem是ruby自带的</p>
+
+<p>​	先测试gem是否安装完毕：gem -v</p>
+
+<p>​	<img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/tkDKT0VosH6Q.png?imageslim" alt="mark" /></p>
+
+<p>然后利用gem安装jekyll：gem install jekyll</p>
+
+<p>测试jekyll是否安装完毕：jekyll -v</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/2MO2BPkNL3bP.png?imageslim" alt="mark" /></p>
+
+<p>进入你的本地仓库 xxx.github.io这个文件夹中，打开命令行输入jekyll serve，一般会提示出现下面的Error，即是缺少jekyll-paginate</p>
+
+<p>直接在命令行里输入命令：gem install jekyll-paginate</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/V4Nmcqn9sGmO.png?imageslim" alt="mark" /></p>
+
+<p>然后再进入你的本地仓库 xxx.github.io这个文件夹中，打开命令行里输入jekyll serve，你的博客就运行在本地4000端口上，复制这个网址在浏览器，你的每一次改动，博客都会动态变化，当所有改动完后，一次性性提交所有的changes即可</p>
+
+<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190127/YseogsiJGNOM.png?imageslim" alt="mark" /></p>
+
+
+
+                <hr style="visibility: hidden;">
+
+                <ul class="pager">
+                    
+                    
+                    <li class="next">
+                        <a href="/2019/01/22/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/" data-toggle="tooltip" data-placement="top" title="markdown基本语法">
+                        Next<br>
+                        <span>markdown基本语法</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+
+
+                <!--Gitalk评论start  -->
+                
+                <!-- 引入Gitalk评论插件  -->
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+                <div id="gitalk-container"></div>
+                <!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
+                <!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
+                <script src="/js/md5.min.js"></script>
+                <script type="text/javascript">
+                    var gitalk = new Gitalk({
+                    clientID: '6de2693894e019680b91',
+                    clientSecret: 'c12e989fc1ceae7ebef3f6d60160e45999ca74d2',
+                    repo: 'cfhyxxj.github.io',
+                    owner: 'cfhyxxj',
+                    admin: ['cfhyxxj'],
+                    distractionFreeMode: true,
+                    id: md5(location.pathname),
+                    });
+                    gitalk.render('gitalk-container');
+                </script>
+                
+                <!-- Gitalk end -->
+
+                
+
+            </div>  
+
+    <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#github" title="github" rel="1">
+                                    github
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#jekyll" title="jekyll" rel="1">
+                                    jekyll
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#blog" title="blog" rel="1">
+                                    blog
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#markdown" title="markdown" rel="1">
+                                    markdown
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        // BY Fix:去除标题前的‘#’ issues:<https://github.com/qiubaiying/qiubaiying.github.io/issues/137>
+        // anchors.options = {
+        //   visible: 'always',
+        //   placement: 'right',
+        //   icon: '#'
+        // };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <!-- add jianshu add target = "_blank" to <a> by BY -->
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/cfhyxxj">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy;  2019
+                    <br>
+                    Theme on <a href="https://github.com/cfhyxxj/cfhyxxj.github.io.git">GitHub</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=cfhyxxj&repo=cfhyxxj.github.io&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script type="text/javascript">
+    if(navigator.serviceWorker){
+        // For security reasons, a service worker can only control the pages that are in the same directory level or below it. That's why we put sw.js at ROOT level.
+        navigator.serviceWorker
+            .register('/sw.js')
+            .then((registration) => {console.log('Service Worker Registered. ', registration)})
+            .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
+    }
+</script>
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers   
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async('/js/jquery.tagcloud.js',function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-132832895-1';
+    var _gaDomain = 'cfhyxxj.top';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '3e60229c781b626f87c3a23c05c9bb0f';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog (selector) {
+        var P = $('div.post-container'),a,n,t,l,i,c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#"+$(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="'+i+'" rel="nofollow">'+t+'</a>');
+            l = $('<li class="'+n+'_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;    
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function(e){
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     * Fork by Hux to support padding
+     */
+    async("/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/apple-touch-icon.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

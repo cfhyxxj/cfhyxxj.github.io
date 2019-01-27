@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>charryglomc</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 27 Jan 2019 14:20:00 +0800</pubDate>
+    <lastBuildDate>Sun, 27 Jan 2019 14:20:00 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>markdown基本语法</title>
+        <description>&lt;h2 id=&quot;1标题&quot;&gt;1.标题&lt;/h2&gt;
+
+&lt;p&gt;总共六级标题，在#后面要有一个空格&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;一级标题&quot;&gt;一级标题&lt;/h1&gt;
+
+&lt;h2 id=&quot;二级标题&quot;&gt;二级标题&lt;/h2&gt;
+&lt;h3 id=&quot;三级标题&quot;&gt;三级标题&lt;/h3&gt;
+&lt;h4 id=&quot;四级标题&quot;&gt;四级标题&lt;/h4&gt;
+&lt;h5 id=&quot;五级标题&quot;&gt;五级标题&lt;/h5&gt;
+&lt;h6 id=&quot;六级标题&quot;&gt;六级标题&lt;/h6&gt;
+
+&lt;h2 id=&quot;2列表&quot;&gt;2.列表&lt;/h2&gt;
+
+&lt;p&gt;无序列表每一行前面加上*或-，符号与文字之间要加一个空格&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* 1
+* 2
+* 3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;1&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;2&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;3&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 1
+- 2
+- 3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;1&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;2&lt;/p&gt;
+
+    &lt;p&gt;有序列表行第一行加上1.，第二行加上2.，依次类推，然后每个字符与文字间也要加上空格&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 1
+2. 2
+3. 3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;1&lt;/li&gt;
+  &lt;li&gt;2&lt;/li&gt;
+  &lt;li&gt;3&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;3引用&quot;&gt;3.引用&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; 引用
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;引用&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;引用嵌套&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; 第一层引用
+&amp;gt;&amp;gt; 第二层引用
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;第一层引用&lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;第二层引用&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;4分割线&quot;&gt;4.分割线&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-是&quot;&gt;---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;5粗体与斜体&quot;&gt;5.粗体与斜体&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**粗体**
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*斜体*
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;***即是粗体也是斜体***
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;即是粗体也是斜体&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;6代码框&quot;&gt;6.代码框&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`hello my friend`
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hello my friend&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`hello my friend
+   me too`
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hello my friend
+   me too&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;7-表格&quot;&gt;7. 表格&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;简单方式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Name | Academy | score 
+- | :-: | -: 
+Harry Potter | Gryffindor| 90 
+Hermione Granger | Gryffindor | 100 
+Draco Malfoy | Slytherin | 90
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Academy&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;score&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Harry Potter&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Gryffindor&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;90&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hermione Granger&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Gryffindor&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;100&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Draco Malfoy&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Slytherin&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;90&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;原生方式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Name | Academy | score | 
+| - | :-: | -: | 
+| Harry Potter | Gryffindor| 90 | 
+| Hermione Granger | Gryffindor | 100 | 
+| Draco Malfoy | Slytherin | 90 |
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;| Name             |  Academy   | score |
+| —————- | :——–: | —-: |
+| Harry Potter     | Gryffindor |    90 |
+| Hermione Granger | Gryffindor |   100 |
+| Draco Malfoy     | Slytherin  |    90 |
+———————&lt;/p&gt;
+&lt;h2 id=&quot;8插入图片&quot;&gt;8.插入图片&lt;/h2&gt;
+
+&lt;p&gt;插入图片有插入本地图片和插入图片外链两种方式&lt;/p&gt;
+
+&lt;p&gt;这里我推荐使用图片外链方式：将图片上传到图床，然后生成markdown外链粘贴过来即可，本地图片已丢失，且博客加载速度慢，有一说是将图片转为base64也可以，没具体试&lt;/p&gt;
+
+&lt;p&gt;我用的win10，mac推荐的图床是ipic，但是ipic没有出windows版的，经过好久的收集，发现一种图床(亲测有效！)附上百度云链接：&lt;a href=&quot;https://pan.baidu.com/s/1_20X7lApQU-4R1M6Jx7Xfg&quot;&gt;mpic&lt;/a&gt; ,提取码：czc7&lt;/p&gt;
+
+&lt;p&gt;不过要用mpic还需要注册&lt;a href=&quot;https://portal.qiniu.com/signup&quot;&gt;七牛云&lt;/a&gt;获取对象存储空间，注册登陆后，添加对象存储&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190122/Wgls2ScMaObM.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190122/3DizGODa92Ia.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;进入密钥管理&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190122/3XYsBcyA5FJs.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;然后将对应的七牛空间名，AK，SK输入登陆mpic账号，在想插入图片时，直接将图片拖到mpic界面，可上传到图床，然后返回一个markdown外链，复制粘贴即可&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/22/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/22/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</guid>
+        
+        <category>markdown</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>利用Github Pages和jekyll创建个人博客</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;不积跬步，无以至千里&lt;/p&gt;
+
+  &lt;p&gt;不积小流，无以成江海&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;博主今年大三，现就读于西安一所211高校，是一个对未来迷茫的考验党。&lt;/p&gt;
+
+&lt;p&gt;之前也折腾过一个博客，那时是用wordpress搭建的，还花了钱买了服务器（腾讯云学生价120/年），但是一直没动手写文章，因为觉得麻烦，不如去学点新东西，新技术（比如近些年来的，机器学习深度学习之类的），古人说的好：&lt;strong&gt;术业有专攻&lt;/strong&gt;，盲目追求技术的后果就是&lt;strong&gt;什么都会一点，什么都不会&lt;/strong&gt;，于是索性就想着再弄一个&lt;strong&gt;不花钱&lt;/strong&gt;的博客，来记录自己的学习历程和心得，毕竟没有过目不忘的脑子，只能靠多巩固来弥补技术间隙性的遗忘。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;正文&quot;&gt;正文&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;本篇文章采用Github Pages+jekyll快速搭建个人博客&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1注册登录你的github&quot;&gt;1.注册+登录你的github&lt;/h3&gt;
+
+&lt;p&gt;首先，你得拥有一个github账号，如果没有，赶紧去注册一个吧!  &lt;a href=&quot;http://github.com/&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/kPtvJ1&quot;&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/01/21/kPtvJ1.md.png&quot; alt=&quot;kPtvJ1.md.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;​      &lt;strong&gt;sign up&lt;/strong&gt; 注册一个账号&lt;/p&gt;
+
+&lt;p&gt;​      &lt;strong&gt;sign in&lt;/strong&gt;  登录你的账号&lt;/p&gt;
+
+&lt;h3 id=&quot;2fork拉取我的博客模板&quot;&gt;2.Fork(拉取)我的博客模板&lt;/h3&gt;
+
+&lt;p&gt;登录github账号后，进入&lt;a href=&quot;https://github.com/cfhyxxj/cfhyxxj.github.io/&quot;&gt;我的仓库&lt;/a&gt;中,点击Fork，就可拉取到我的博客模板到自己的仓库中&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/kPNsYR&quot;&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/01/21/kPNsYR.md.png&quot; alt=&quot;kPNsYR.md.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3修改repository仓库名&quot;&gt;3.修改repository(仓库)名&lt;/h3&gt;
+
+&lt;p&gt;在第2步的基础上，点击setting&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/kPNTfI&quot;&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/01/21/kPNTfI.md.png&quot; alt=&quot;kPNTfI.md.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;修改repository name 为:         你的github名.github.io&lt;/p&gt;
+
+&lt;p&gt;例如我的github账号是：cfhyxxj，则我的这个repository name 应改为： cfhyxxj.github.io&lt;/p&gt;
+
+&lt;p&gt;接着点击Rename即可&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/kPUCpq&quot;&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/01/21/kPUCpq.md.png&quot; alt=&quot;kPUCpq.md.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4检查上述步骤是否成功&quot;&gt;4.检查上述步骤是否成功&lt;/h3&gt;
+
+&lt;p&gt;在浏览器上输入网址：你的github名.github.io&lt;/p&gt;
+
+&lt;p&gt;会出现如下图所示的博客界面，不过还得修改下，才能改成你自己的博客&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/kPcB7t&quot;&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/01/21/kPcB7t.md.png&quot; alt=&quot;kPcB7t.md.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;整个网站的架构&quot;&gt;整个网站的架构&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;├── _config.yml
+├── _drafts
+|   ├── begin-with-the-crazy-ideas.textile
+|   └── on-simplicity-in-technology.markdown
+├── _includes
+|   ├── footer.html
+|   └── header.html
+├── _layouts
+|   ├── default.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   └── 2009-04-26-barcamp-boston-4-roundup.textile
+├── _data
+|   └── members.yml
+├── _site
+├── img
+└── index.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;其中重要的就是这几个文件：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;_config.yml   全局配置文件&lt;/li&gt;
+  &lt;li&gt;_posts 存放博客文章的文件夹&lt;/li&gt;
+  &lt;li&gt;img  存放个人博客网站上少量的图片(博客文章里插入的是图片外链，图片放置在图床，加快了博客加载速度，后面还会提到)&lt;/li&gt;
+  &lt;li&gt;想自己设计界面，可以看这里&lt;a href=&quot;https://www.jekyll.com.cn/docs/structure/&quot;&gt;jekyll文档&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;修改全局配置&quot;&gt;修改全局配置&lt;/h2&gt;
+
+&lt;p&gt;在你的仓库里，找到_config.yml文件，双击打开&lt;/p&gt;
+
+&lt;p&gt;然后对此文件进行修改(可对照下面设置和网站页面改)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/kP2hF0&quot;&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/01/21/kP2hF0.md.png&quot; alt=&quot;kP2hF0.md.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;网站设置&quot;&gt;网站设置&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Site settings
+title: charryglomc   #这个标题会显示在左上角(返回主页)和header图片中间字体
+SEOTitle: 春风化雨的博客  #这个标题显示在浏览器标签页上
+header-img: img/post-bg-desk.jpg  #主页上部图片
+email: 798577670@qq.com  
+description: &quot;&quot;
+keyword: &quot;春风化雨的博客, cfhyxxj&quot;
+url: &quot;http://cfhyxxj.github.io&quot;          # your host, for absolute URL
+baseurl: &quot;&quot;      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: &quot;https://github.com/cfhyxxj/cfhyxxj.github.io.git&quot; # you code repository
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;侧边栏&quot;&gt;侧边栏&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Sidebar settings
+sidebar: true                           # true为有侧边栏
+sidebar-about-description: &quot;花开堪折直须折,莫待无花空折枝&quot;  #侧边栏描述
+sidebar-avatar: /img/zz.png      #本领想用二柱子头像的，但是觉得并不合适
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;修改个人介绍&quot;&gt;修改个人介绍&lt;/h3&gt;
+
+&lt;p&gt;在about.html文件里，可对照着改&lt;/p&gt;
+
+&lt;h3 id=&quot;社交账号&quot;&gt;社交账号&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/2178672-ec775a22f76e2f40.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# SNS settings
+RSS: false
+# weibo_username:     
+#zhihu_username:     
+github_username:    cfhyxxj   #不填就注释掉，博主只想要star，hhh
+#facebook_username:  
+#jianshu_username:   
+#twitter_username:  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;评论系统&quot;&gt;评论系统&lt;/h3&gt;
+
+&lt;p&gt;我推荐用&lt;strong&gt;gitalk&lt;/strong&gt;评论插件，&lt;strong&gt;gitalk&lt;/strong&gt;是由github账号登录，接下来改一下下面的参数就好了&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID:  xxxxxxxxxxxxxxx                  #生成的clientID
+  clientSecret:  xxxxxxxxxxxxxx              #生成的clientSecret
+  repo: cfhyxxj.github.io    #改为自己的仓库名称
+  owner: cfhyxxj    #改为自己的github用户名
+  admin: cfhyxxj    #同上
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;获取clientid和clientsecret&quot;&gt;获取clientID和clientSecret&lt;/h4&gt;
+
+&lt;p&gt;首先申请一个&lt;a href=&quot;https://github.com/settings/applications/new&quot;&gt;Github Application&lt;/a&gt;，如下照着改为自己的就行了&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/01/21/kPWM8K.png&quot; alt=&quot;kPWM8K.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;登录后，往下滑，就可看到自己的&lt;strong&gt;clientID&lt;/strong&gt;和&lt;strong&gt;clientSecret&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;网站统计&quot;&gt;网站统计&lt;/h3&gt;
+
+&lt;p&gt;集成了 &lt;a href=&quot;http://tongji.baidu.com/web/welcome/login&quot;&gt;Baidu Analytics&lt;/a&gt; 和 &lt;a href=&quot;http://www.google.cn/analytics/&quot;&gt;Google Analytics&lt;/a&gt;，到各个网站注册拿到&lt;strong&gt;track_id&lt;/strong&gt;替换下面的就可以了&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Analytics settings
+# Baidu Analytics
+ba_track_id: xxxxxxxxxxxxxxxxxxxxxxxx
+
+# Google Analytics
+ga_track_id: 'xxxxxxxxx'            # Format: UA-xxxxxx-xx
+ga_domain: auto
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;好友&quot;&gt;好友&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;friends: [
+    {
+        title: &quot;简书·BY&quot;,
+        href: &quot;http://www.jianshu.com/u/e71990ada2fd&quot;
+    },{
+        title: &quot;Apple&quot;,
+        href: &quot;https://apple.com&quot;
+    },{
+        title: &quot;Apple Developer&quot;,
+        href: &quot;https://developer.apple.com/&quot;
+    }
+]     #如不想用可用#注释掉，但要一行一行注释
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;标签&quot;&gt;标签&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;提交保存&quot;&gt;提交保存&lt;/h3&gt;
+
+&lt;p&gt;将网页拉到底部，提交所有的修改&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/kPWXRK&quot;&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/01/21/kPWXRK.md.png&quot; alt=&quot;kPWXRK.md.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;购买域名&quot;&gt;购买域名&lt;/h3&gt;
+
+&lt;p&gt;很幸运还是学生，买域名有优惠，跑题了，hhh&lt;/p&gt;
+
+&lt;p&gt;我买的阿里的域名.top，一年9RMB，是不是觉得特别便宜呢？&lt;/p&gt;
+
+&lt;p&gt;可用淘宝或支付宝登录，然后搜索栏搜索&lt;strong&gt;域名&lt;/strong&gt;，输入你想设定的域名，看有没有，然后购买&lt;/p&gt;
+
+&lt;p&gt;买了之后要进行&lt;strong&gt;&lt;em&gt;域名解析&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ping--ip&quot;&gt;ping  ip&lt;/h3&gt;
+
+&lt;p&gt;在这之前要在cmd命令行里ping一下 你的github账号.github.io的ip地址&lt;/p&gt;
+
+&lt;p&gt;例如我的：&lt;/p&gt;
+
+&lt;p&gt;ping  cfhyxxj.github.io&lt;/p&gt;
+
+&lt;p&gt;(可能有不同，最好自己ping一下，这个ip地址应该是最新美国Github Pages服务器的地址)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/kPfKds&quot;&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/01/21/kPfKds.md.png&quot; alt=&quot;kPfKds.md.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;域名解析&quot;&gt;域名解析&lt;/h3&gt;
+
+&lt;p&gt;进入阿里云控制台，双击域名，进入域名控制台，双击解析&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/kPfUeJ&quot;&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/01/21/kPfUeJ.md.png&quot; alt=&quot;kPfUeJ.md.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;添加两条记录解析&lt;/p&gt;
+
+&lt;p&gt;记录类型两条都为A&lt;/p&gt;
+
+&lt;p&gt;主机记录一个为@，一个为www&lt;/p&gt;
+
+&lt;p&gt;记录值为刚才ping的ip地址&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190121/NsJuozcyMOs0.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190121/HP4bjbTVE8Lb.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;修改cname&quot;&gt;修改CNAME&lt;/h3&gt;
+
+&lt;p&gt;修改仓库下的CNAME文件内容，改为自己刚注册的域名&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190122/9kVWbW747h9K.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;测试&quot;&gt;测试&lt;/h3&gt;
+
+&lt;p&gt;在浏览器输入域名，直接成功跳转到自己的博客，大功告成！&lt;/p&gt;
+
+&lt;h3 id=&quot;写文章&quot;&gt;写文章&lt;/h3&gt;
+
+&lt;p&gt;要写文章首先要学习一下&lt;strong&gt;markdown语法&lt;/strong&gt;，可以看下&lt;a href=&quot;http://cfhyxxj.top/2019/01/22/markdown基本语法/&quot;&gt;markdown基本语法&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;另外安利一个mardown神器：typora，界面简洁，写下即可渲染。 &lt;a href=&quot;https://www.typora.io/#windows&quot;&gt;typora下载链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;博客文章最后是以.md文件的形式保存，.md标题是由下图框框内的yaml自动决定的，也就是你写博客前面要照着如下写&lt;/p&gt;
+
+&lt;p&gt;title，subtitle，date，author，header-img，tags全部由自己设定，最后传文章显示到博客上&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190122/WdkrEYR9W5yF.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;传文章&quot;&gt;传文章&lt;/h3&gt;
+
+&lt;p&gt;将文章上传到自己的博客，可以下载&lt;a href=&quot;https://desktop.github.com/&quot;&gt;github-desktop&lt;/a&gt;,也可以通过git命令的方式传，&lt;/p&gt;
+
+&lt;p&gt;这里我采用github-desktop传文章&lt;/p&gt;
+
+&lt;h4 id=&quot;1将仓库中的项目下载到本地-clone-github-project-to-local-repository&quot;&gt;1.将仓库中的项目下载到本地 (Clone Github Project to Local Repository)&lt;/h4&gt;
+
+&lt;p&gt;​	首先，你不想每次进入github网站对你的项目文件编辑修改，你可以把它们下载到你的本地磁盘上，然后对项目文件的每一次修改都会被记录下来，可以通过github-desktop同步修改到你的远程仓库上(即本地修改同步到远程仓库)&lt;/p&gt;
+
+&lt;p&gt;点击加号&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/UFmT5GGrit80.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​	选择clone，你可以看到你在github上存放的（尚未下载到本地的）项目列表。选中一个想要下载到本地的项目，选择clone Repository，然后选择本地路径以存放项目文件夹。&lt;/p&gt;
+
+&lt;p&gt;项目文件夹可以随意更换位置，不信你可以试试，hhh&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/NwV0tKmP0yc1.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2在本地仓库更新网页端的改变-pull&quot;&gt;2.在本地仓库更新网页端的改变 （pull)&lt;/h4&gt;
+
+&lt;p&gt;​	假如你是和你的合作者一起完成一个项目，他又新提交了一个新文件改变到该项目，你很感兴趣，想要同步到本地，你可以这样做：在网站上点击【Repository】-【Pull】，接着，你就可以看到本地仓库里出现了合作者提交的新文件。&lt;/p&gt;
+
+&lt;h4 id=&quot;3-在本地提交新的代码版本到仓库-push-local-changes-to-remote-repository&quot;&gt;3. 在本地提交新的代码版本到仓库 (push local changes to remote repository)&lt;/h4&gt;
+
+&lt;p&gt;修改本地仓库文件后，打开github-desktop，点击changes，有时候可能没有(博主第一次就是这样，一直试了好多次)，那就切换github-desktop界面，直到它出现changes&lt;/p&gt;
+
+&lt;p&gt;然后填下(Summary)标题和注释(Description)就提交(Commit)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/1TR5JtqjwrBB.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;commit后，你会发现你的项目历史结点上多了一个新的环，代表你的上一次commit记录,如下图&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/SdrnNV417ys2.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;你可以提交一次，然后点击Sync同步到你的远程仓库，也可以提交多次后迭代，再同步&lt;/p&gt;
+
+&lt;p&gt;同步后，前面的环消失了&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/5xe1DLxuCYVq.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;4-创建新的分支-creating-new-branch&quot;&gt;4. 创建新的分支 (creating new branch)&lt;/h4&gt;
+
+&lt;p&gt;比如，你和朋友一起翻译一本书，你负责翻译成英文，你朋友负责翻译成日文，那么你们也可以分别在两个分支上操作，但这两个分支都属于这本书的翻译项目&lt;/p&gt;
+
+&lt;p&gt;简而言之，所有分支同属一个项目，但每个分支可以互相独立，互不干扰，而有需要时，任意两个分支也可以合并。&lt;/p&gt;
+
+&lt;p&gt;创建新的分支&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/kwp7FonVCeSG.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​      新的分支publish在远程仓库&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/FMPINXsfKKIl.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;pull request&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/N2IgWVuiWR1x.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么要pull request？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;很多情况下，很多人是fork(拉取)别人的项目，然后自己进行改进，但是你对别人的项目是没有改动权力的，但是如果你觉得自己的改进非常棒，想贡献自己的代码并成为原项目的contributor之一，于是你就需要发起一个pull request，通过审核，请求原项目的负责人将你的代码合并的原项目中&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll博客本地调试&quot;&gt;jekyll博客本地调试&lt;/h2&gt;
+
+&lt;p&gt;github远程提交有延迟，不适合博客进行调试，所以我们需要用到jekyll本地调试&lt;/p&gt;
+
+&lt;p&gt;第一次安装有三个步骤&lt;/p&gt;
+
+&lt;h4 id=&quot;1-安装ruby&quot;&gt;1. 安装Ruby&lt;/h4&gt;
+
+&lt;p&gt;进入&lt;a href=&quot;http://rubyinstaller.org/downloads/&quot;&gt;Ruby下载链接&lt;/a&gt;，根据自己的机型下载对应版本&lt;/p&gt;
+
+&lt;p&gt;博主第一次下载的是最新的，没成功，翻墙下载卡到一半不动了，所以还是果断下了以前的版本&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/yeYccIj3B80R.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;安装过程中，这两个勾上(默认是没有勾上)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/KwG4mlAgDOax.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;安装完后测试是否安装成功，命令行输入：ruby -v&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/fYCK79AmlXcc.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2-devkit下载&quot;&gt;2. DevKit下载&lt;/h4&gt;
+
+&lt;p&gt;还是在那个&lt;a href=&quot;http://rubyinstaller.org/downloads/&quot;&gt;网站&lt;/a&gt;,拉到下面，下载DevKit&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/N64sLRDCVBdb.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在你保存DevKit的文件夹里打开命令行&lt;/p&gt;
+
+&lt;p&gt;例如我保存在D:/DevKit,我先进入这个文件夹，然后按住shift，点击鼠标右键即可打开命令行&lt;/p&gt;
+
+&lt;p&gt;然后输入ruby dk.rb init，自动在文件夹中生成config.yml文件&lt;/p&gt;
+
+&lt;p&gt;用记事本打开这个文件，在文件末尾行添加Ruby文件夹地址，例如我的是C:/Ruby23-x64,然后保存退出&lt;/p&gt;
+
+&lt;p&gt;#### 3. 安装jekyll&lt;/p&gt;
+
+&lt;p&gt;​	以下命令都是在命令行里输入&lt;/p&gt;
+
+&lt;p&gt;​	gem是ruby自带的&lt;/p&gt;
+
+&lt;p&gt;​	先测试gem是否安装完毕：gem -v&lt;/p&gt;
+
+&lt;p&gt;​	&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/tkDKT0VosH6Q.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;然后利用gem安装jekyll：gem install jekyll&lt;/p&gt;
+
+&lt;p&gt;测试jekyll是否安装完毕：jekyll -v&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/2MO2BPkNL3bP.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;进入你的本地仓库 xxx.github.io这个文件夹中，打开命令行输入jekyll serve，一般会提示出现下面的Error，即是缺少jekyll-paginate&lt;/p&gt;
+
+&lt;p&gt;直接在命令行里输入命令：gem install jekyll-paginate&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/V4Nmcqn9sGmO.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;然后再进入你的本地仓库 xxx.github.io这个文件夹中，打开命令行里输入jekyll serve，你的博客就运行在本地4000端口上，复制这个网址在浏览器，你的每一次改动，博客都会动态变化，当所有改动完后，一次性性提交所有的changes即可&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/YseogsiJGNOM.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 21 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/21/%E5%88%A9%E7%94%A8Github-Pages%E5%92%8Cjekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/21/%E5%88%A9%E7%94%A8Github-Pages%E5%92%8Cjekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+        
+        <category>github</category>
+        
+        <category>jekyll</category>
+        
+        <category>blog</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
