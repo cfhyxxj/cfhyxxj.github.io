@@ -5,7 +5,7 @@
 
 
 layout:     post
-title:      Android环境配置
+title:      Android环境配置(基于Eclipse ADT)
 subtitle:  
 date:       2019-02-07
 author:     春风化雨
