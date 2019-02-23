@@ -291,7 +291,7 @@ ping  cfhyxxj.github.io
 
 记录值为刚才ping的ip地址
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190121/NsJuozcyMOs0.png?imageslim)
+![2019-02-23_175417.png](https://i.loli.net/2019/02/23/5c7135bd5b4c1.png)
 
 
 
