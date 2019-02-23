@@ -353,18 +353,18 @@ title，subtitle，date，author，header-img，tags全部由自己设定，最�
 
    然后填下(Summary)标题和注释(Description)就提交(Commit)
 
-   
+   ![2019-02-23_202533.png](https://i.loli.net/2019/02/23/5c713bd8f0201.png)
 
 
 commit后，你会发现你的项目历史结点上多了一个新的环，代表你的上一次commit记录,如下图
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/SdrnNV417ys2.png?imageslim)
+![2019-02-23_202632.png](https://i.loli.net/2019/02/23/5c713c3e5b70e.png)
 
 你可以提交一次，然后点击Sync同步到你的远程仓库，也可以提交多次后迭代，再同步
 
 同步后，前面的环消失了
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/5xe1DLxuCYVq.png?imageslim)
+![2019-02-23_202948.png](https://i.loli.net/2019/02/23/5c713cd06ff7c.png)
 
 #### 4. 创建新的分支 (creating new branch)
 
