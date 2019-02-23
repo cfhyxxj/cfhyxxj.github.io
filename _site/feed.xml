@@ -5,8 +5,8 @@
     <description>charryglomc</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 Feb 2019 22:59:47 +0800</pubDate>
-    <lastBuildDate>Sat, 23 Feb 2019 22:59:47 +0800</lastBuildDate>
+    <pubDate>Sat, 23 Feb 2019 23:14:01 +0800</pubDate>
+    <lastBuildDate>Sat, 23 Feb 2019 23:14:01 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -1035,15 +1035,15 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 
 &lt;p&gt;创建新的分支&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/kwp7FonVCeSG.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716096acdb6.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716096acdb6.png&quot; alt=&quot;2019-02-23_230213.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;​      新的分支publish在远程仓库&lt;/p&gt;
+&lt;p&gt;​      新的分支publish到远程仓库&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/FMPINXsfKKIl.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c7160e5aad7e.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7160e5aad7e.png&quot; alt=&quot;2019-02-23_230345.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;pull request&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/N2IgWVuiWR1x.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716120b716d.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716120b716d.png&quot; alt=&quot;2019-02-23_230345.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;为什么要pull request？&lt;/strong&gt;&lt;/p&gt;
 
@@ -1061,11 +1061,11 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 
 &lt;p&gt;博主第一次下载的是最新的，没成功，翻墙下载卡到一半不动了，所以还是果断下了以前的版本&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/yeYccIj3B80R.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c7161acd0629.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7161acd0629.png&quot; alt=&quot;2019-02-23_230647.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;安装过程中，这两个勾上(默认是没有勾上)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/KwG4mlAgDOax.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c7161e97052f.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7161e97052f.png&quot; alt=&quot;2019-02-23_230810.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;安装完后测试是否安装成功，命令行输入：ruby -v&lt;/p&gt;
 
@@ -1075,7 +1075,7 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 
 &lt;p&gt;还是在那个&lt;a href=&quot;http://rubyinstaller.org/downloads/&quot;&gt;网站&lt;/a&gt;,拉到下面，下载DevKit&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/N64sLRDCVBdb.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c7162267e50e.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7162267e50e.png&quot; alt=&quot;2019-02-23_230904.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;在你保存DevKit的文件夹里打开命令行&lt;/p&gt;
 
@@ -1093,23 +1093,23 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 
 &lt;p&gt;​	先测试gem是否安装完毕：gem -v&lt;/p&gt;
 
-&lt;p&gt;​	&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/tkDKT0VosH6Q.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+   	&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716251bb26f.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716251bb26f.png&quot; alt=&quot;2019-02-23_230904.png&quot; /&gt;&lt;/a&gt;
 
 &lt;p&gt;然后利用gem安装jekyll：gem install jekyll&lt;/p&gt;
 
 &lt;p&gt;测试jekyll是否安装完毕：jekyll -v&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/2MO2BPkNL3bP.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c7162bb03398.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7162bb03398.png&quot; alt=&quot;2019-02-23_230904.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;进入你的本地仓库 xxx.github.io这个文件夹中，打开命令行输入jekyll serve，一般会提示出现下面的Error，即是缺少jekyll-paginate&lt;/p&gt;
 
 &lt;p&gt;直接在命令行里输入命令：gem install jekyll-paginate&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/V4Nmcqn9sGmO.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c7162edd73a1.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7162edd73a1.png&quot; alt=&quot;2019-02-23_231216.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;然后再进入你的本地仓库 xxx.github.io这个文件夹中，打开命令行里输入jekyll serve，你的博客就运行在本地4000端口上，复制这个网址在浏览器，你的每一次改动，博客都会动态变化，当所有改动完后，一次性性提交所有的changes即可&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/YseogsiJGNOM.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c71632e4bb5d.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c71632e4bb5d.png&quot; alt=&quot;2019-02-23_231337.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 21 Jan 2019 00:00:00 +0800</pubDate>

@@ -374,15 +374,15 @@ commit后，你会发现你的项目历史结点上多了一个新的环，代�
 
 创建新的分支
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/kwp7FonVCeSG.png?imageslim)
+[![2019-02-23_230213.png](https://i.loli.net/2019/02/23/5c716096acdb6.png)](https://i.loli.net/2019/02/23/5c716096acdb6.png)
 
-​      新的分支publish在远程仓库
+​      新的分支publish到远程仓库
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/FMPINXsfKKIl.png?imageslim)
+[![2019-02-23_230345.png](https://i.loli.net/2019/02/23/5c7160e5aad7e.png)](https://i.loli.net/2019/02/23/5c7160e5aad7e.png)
 
 pull request
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/N2IgWVuiWR1x.png?imageslim)
+[![2019-02-23_230345.png](https://i.loli.net/2019/02/23/5c716120b716d.png)](https://i.loli.net/2019/02/23/5c716120b716d.png)
 
 **为什么要pull request？**
 
@@ -402,11 +402,11 @@ github远程提交有延迟，不适合博客进行调试，所以我们需要�
 
 博主第一次下载的是最新的，没成功，翻墙下载卡到一半不动了，所以还是果断下了以前的版本
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/yeYccIj3B80R.png?imageslim)
+[![2019-02-23_230647.png](https://i.loli.net/2019/02/23/5c7161acd0629.png)](https://i.loli.net/2019/02/23/5c7161acd0629.png)
 
 安装过程中，这两个勾上(默认是没有勾上)
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/KwG4mlAgDOax.png?imageslim)
+[![2019-02-23_230810.png](https://i.loli.net/2019/02/23/5c7161e97052f.png)](https://i.loli.net/2019/02/23/5c7161e97052f.png)
 
 安装完后测试是否安装成功，命令行输入：ruby -v
 
@@ -416,7 +416,7 @@ github远程提交有延迟，不适合博客进行调试，所以我们需要�
 
 还是在那个[网站](http://rubyinstaller.org/downloads/),拉到下面，下载DevKit
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/N64sLRDCVBdb.png?imageslim)
+[![2019-02-23_230904.png](https://i.loli.net/2019/02/23/5c7162267e50e.png)](https://i.loli.net/2019/02/23/5c7162267e50e.png)
 
 在你保存DevKit的文件夹里打开命令行
 
@@ -436,23 +436,23 @@ github远程提交有延迟，不适合博客进行调试，所以我们需要�
 
    ​	先测试gem是否安装完毕：gem -v
 
-   ​	![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/tkDKT0VosH6Q.png?imageslim)
+   	[![2019-02-23_230904.png](https://i.loli.net/2019/02/23/5c716251bb26f.png)](https://i.loli.net/2019/02/23/5c716251bb26f.png)
 
    然后利用gem安装jekyll：gem install jekyll
 
    测试jekyll是否安装完毕：jekyll -v
 
-   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/2MO2BPkNL3bP.png?imageslim)
+[![2019-02-23_230904.png](https://i.loli.net/2019/02/23/5c7162bb03398.png)](https://i.loli.net/2019/02/23/5c7162bb03398.png)
 
    进入你的本地仓库 xxx.github.io这个文件夹中，打开命令行输入jekyll serve，一般会提示出现下面的Error，即是缺少jekyll-paginate
 
    直接在命令行里输入命令：gem install jekyll-paginate
 
-   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/V4Nmcqn9sGmO.png?imageslim)
+   [![2019-02-23_231216.png](https://i.loli.net/2019/02/23/5c7162edd73a1.png)](https://i.loli.net/2019/02/23/5c7162edd73a1.png)
 
 
 
    然后再进入你的本地仓库 xxx.github.io这个文件夹中，打开命令行里输入jekyll serve，你的博客就运行在本地4000端口上，复制这个网址在浏览器，你的每一次改动，博客都会动态变化，当所有改动完后，一次性性提交所有的changes即可
 
-   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/YseogsiJGNOM.png?imageslim)
+   [![2019-02-23_231337.png](https://i.loli.net/2019/02/23/5c71632e4bb5d.png)](https://i.loli.net/2019/02/23/5c71632e4bb5d.png)
 
