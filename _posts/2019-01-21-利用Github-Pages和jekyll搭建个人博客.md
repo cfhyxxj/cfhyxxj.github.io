@@ -2,7 +2,7 @@
 
 
 layout:     post
-title:      利用Github Pages和jekyll创建个人博客
+title:      利用github Pages和jekyll创建个人博客
 subtitle:   博客创建过程中踩过的坑与个人心得
 date:       2019-01-21
 author:     春风化雨
@@ -295,13 +295,13 @@ ping  cfhyxxj.github.io
 
 
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190121/HP4bjbTVE8Lb.png?imageslim)
+![2019-02-23_200609.png](https://i.loli.net/2019/02/23/5c71376fa2c06.png)
 
 ### 修改CNAME
 
 修改仓库下的CNAME文件内容，改为自己刚注册的域名
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190122/9kVWbW747h9K.png?imageslim)
+![2019-02-23_201306.png](https://i.loli.net/2019/02/23/5c7138f3eff8d.png)
 
 ### 测试
 
@@ -317,7 +317,7 @@ ping  cfhyxxj.github.io
 
 title，subtitle，date，author，header-img，tags全部由自己设定，最后传文章显示到博客上
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190122/WdkrEYR9W5yF.png?imageslim)
+![2019-02-23_201612.png](https://i.loli.net/2019/02/23/5c7139b8799c2.png)
 
 ### 传文章
 
@@ -331,7 +331,7 @@ title，subtitle，date，author，header-img，tags全部由自己设定，最�
 
 点击加号
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/UFmT5GGrit80.png?imageslim)
+![2019-02-23_201612.png](https://i.loli.net/2019/02/23/5c713a781c23b.png)
 
 ​	选择clone，你可以看到你在github上存放的（尚未下载到本地的）项目列表。选中一个想要下载到本地的项目，选择clone Repository，然后选择本地路径以存放项目文件夹。
 
@@ -339,7 +339,7 @@ title，subtitle，date，author，header-img，tags全部由自己设定，最�
 
 
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/NwV0tKmP0yc1.png?imageslim)
+![2019-02-23_202110.png](https://i.loli.net/2019/02/23/5c713ac605a36.png)
 
 
 
@@ -353,7 +353,7 @@ title，subtitle，date，author，header-img，tags全部由自己设定，最�
 
    然后填下(Summary)标题和注释(Description)就提交(Commit)
 
-   ![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/1TR5JtqjwrBB.png?imageslim)
+   
 
 
 commit后，你会发现你的项目历史结点上多了一个新的环，代表你的上一次commit记录,如下图
