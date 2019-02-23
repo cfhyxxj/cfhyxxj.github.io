@@ -392,19 +392,42 @@ Draco Malfoy | Slytherin | 90
 
 <p>这里我推荐使用图片外链方式：将图片上传到图床，然后生成markdown外链粘贴过来即可，本地图片已丢失，且博客加载速度慢，有一说是将图片转为base64也可以，没具体试</p>
 
-<p>我用的win10，mac推荐的图床是ipic，但是ipic没有出windows版的，经过好久的收集，发现一种图床(亲测有效！)附上百度云链接：<a href="https://pan.baidu.com/s/1_20X7lApQU-4R1M6Jx7Xfg">mpic</a> ,提取码：czc7</p>
+<p><strong>方法一</strong>(<strong>不推荐</strong>)：我用的win10，mac推荐的图床是ipic，但是ipic没有出windows版的，经过好久的收集，发现一种图床(亲测有效！)附上百度云链接：<a href="https://pan.baidu.com/s/1_20X7lApQU-4R1M6Jx7Xfg">mpic</a> ,提取码：czc7</p>
 
 <p>不过要用mpic还需要注册<a href="https://portal.qiniu.com/signup">七牛云</a>获取对象存储空间，注册登陆后，添加对象存储</p>
 
-<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190122/Wgls2ScMaObM.png?imageslim" alt="mark" /></p>
+<p><a href="https://i.loli.net/2019/02/23/5c716451ddec0.png"><img src="https://i.loli.net/2019/02/23/5c716451ddec0.png" alt="2019-02-23_231802.png" /></a></p>
 
-<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190122/3DizGODa92Ia.png?imageslim" alt="mark" /></p>
+<p><a href="https://i.loli.net/2019/02/23/5c7164d4d0fd6.png"><img src="https://i.loli.net/2019/02/23/5c7164d4d0fd6.png" alt="2019-02-23_231945.png" /></a></p>
 
 <p>进入密钥管理</p>
 
-<p><img src="http://plnzlwv2k.bkt.clouddn.com/blog/20190122/3XYsBcyA5FJs.png?imageslim" alt="mark" /></p>
+<p><a href="https://i.loli.net/2019/02/23/5c71651fd7ab6.png"><img src="https://i.loli.net/2019/02/23/5c71651fd7ab6.png" alt="2019-02-23_232139.png" /></a></p>
 
 <p>然后将对应的七牛空间名，AK，SK输入登陆mpic账号，在想插入图片时，直接将图片拖到mpic界面，可上传到图床，然后返回一个markdown外链，复制粘贴即可</p>
+
+<p><strong>but</strong>，我不推荐大家用七牛云，因为，测试域名只有30天，时间过了，你插入的图片外链都挂了，这样博主的悲剧就会再次发生(hate死七牛云了，得截图一个一个换…)，如果你有时间，备案下域名，就可以很方便使用七牛云，楼主买的阿里域名，美其名曰域名备份，你还学要买服务器，所以博主果断放弃了</p>
+
+<p><strong>方法二</strong>：推荐大家使用 <a href="https://sm.ms/">sm.ms</a></p>
+
+<ul>
+  <li>使用SM.MS官方API，图床稳定，支持 <strong>HTTPS</strong>。</li>
+  <li>支持多文件同时上传（每次最多选择十个图片，且每个图片大小不超过5M）</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>支持常见的图片格式  (.png</td>
+          <td>.jpg</td>
+          <td>.gif</td>
+          <td>.webp</td>
+          <td>.jpeg)</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
 
 
                 <hr style="visibility: hidden;">

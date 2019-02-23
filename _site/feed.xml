@@ -5,8 +5,8 @@
     <description>charryglomc</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 Feb 2019 23:14:01 +0800</pubDate>
-    <lastBuildDate>Sat, 23 Feb 2019 23:14:01 +0800</lastBuildDate>
+    <pubDate>Sat, 23 Feb 2019 23:30:03 +0800</pubDate>
+    <lastBuildDate>Sat, 23 Feb 2019 23:30:03 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -691,19 +691,42 @@ Draco Malfoy | Slytherin | 90
 
 &lt;p&gt;这里我推荐使用图片外链方式：将图片上传到图床，然后生成markdown外链粘贴过来即可，本地图片已丢失，且博客加载速度慢，有一说是将图片转为base64也可以，没具体试&lt;/p&gt;
 
-&lt;p&gt;我用的win10，mac推荐的图床是ipic，但是ipic没有出windows版的，经过好久的收集，发现一种图床(亲测有效！)附上百度云链接：&lt;a href=&quot;https://pan.baidu.com/s/1_20X7lApQU-4R1M6Jx7Xfg&quot;&gt;mpic&lt;/a&gt; ,提取码：czc7&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;方法一&lt;/strong&gt;(&lt;strong&gt;不推荐&lt;/strong&gt;)：我用的win10，mac推荐的图床是ipic，但是ipic没有出windows版的，经过好久的收集，发现一种图床(亲测有效！)附上百度云链接：&lt;a href=&quot;https://pan.baidu.com/s/1_20X7lApQU-4R1M6Jx7Xfg&quot;&gt;mpic&lt;/a&gt; ,提取码：czc7&lt;/p&gt;
 
 &lt;p&gt;不过要用mpic还需要注册&lt;a href=&quot;https://portal.qiniu.com/signup&quot;&gt;七牛云&lt;/a&gt;获取对象存储空间，注册登陆后，添加对象存储&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190122/Wgls2ScMaObM.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716451ddec0.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716451ddec0.png&quot; alt=&quot;2019-02-23_231802.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190122/3DizGODa92Ia.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c7164d4d0fd6.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7164d4d0fd6.png&quot; alt=&quot;2019-02-23_231945.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;进入密钥管理&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190122/3XYsBcyA5FJs.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c71651fd7ab6.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c71651fd7ab6.png&quot; alt=&quot;2019-02-23_232139.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;然后将对应的七牛空间名，AK，SK输入登陆mpic账号，在想插入图片时，直接将图片拖到mpic界面，可上传到图床，然后返回一个markdown外链，复制粘贴即可&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;but&lt;/strong&gt;，我不推荐大家用七牛云，因为，测试域名只有30天，时间过了，你插入的图片外链都挂了，这样博主的悲剧就会再次发生(hate死七牛云了，得截图一个一个换…)，如果你有时间，备案下域名，就可以很方便使用七牛云，楼主买的阿里域名，美其名曰域名备份，你还学要买服务器，所以博主果断放弃了&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;方法二&lt;/strong&gt;：推荐大家使用 &lt;a href=&quot;https://sm.ms/&quot;&gt;sm.ms&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;使用SM.MS官方API，图床稳定，支持 &lt;strong&gt;HTTPS&lt;/strong&gt;。&lt;/li&gt;
+  &lt;li&gt;支持多文件同时上传（每次最多选择十个图片，且每个图片大小不超过5M）&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;支持常见的图片格式  (.png&lt;/td&gt;
+          &lt;td&gt;.jpg&lt;/td&gt;
+          &lt;td&gt;.gif&lt;/td&gt;
+          &lt;td&gt;.webp&lt;/td&gt;
+          &lt;td&gt;.jpeg)&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
         <pubDate>Tue, 22 Jan 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/01/22/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</link>
