@@ -34,27 +34,27 @@ tags:
 
 百度百科关于**Oracle**的介绍
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190130/k3GF0kwmJ5iS.png?imageslim)
+[![2019-02-23_233505.png](https://i.loli.net/2019/02/23/5c71684595e54.png)](https://i.loli.net/2019/02/23/5c71684595e54.png)
 
 下拉到java，点击
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190130/v03CRTfhcGxm.png?imageslim)
+[![2.png](https://i.loli.net/2019/02/23/5c716792eccef.png)](https://i.loli.net/2019/02/23/5c716792eccef.png)
 
 下载
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190130/F712waosygO2.png?imageslim)
+[![3.png](https://i.loli.net/2019/02/23/5c7167930debb.png)](https://i.loli.net/2019/02/23/5c7167930debb.png)
 
 ## 2. 配置jdk上的变量环境
 
 选择我的电脑，右键属性，点击搞基系统设置
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190130/aKH4VoTvlbkh.png?imageslim)
+[![1.png](https://i.loli.net/2019/02/23/5c71691250dba.png)](https://i.loli.net/2019/02/23/5c71691250dba.png)
 
 点击环境变量
 
 
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190130/0bQOdov7Et9r.png?imageslim)
+[![2.png](https://i.loli.net/2019/02/23/5c71691244f4d.png)](https://i.loli.net/2019/02/23/5c71691244f4d.png)
 
 设置三个系统变量
 
@@ -62,7 +62,7 @@ tags:
 
 例如在我的电脑上，jdk的安装路径为：C:\Program Files\Java\jdk1.8.0_191，所以**JAVA_HOME**的变量值应设置为：C:\Program Files\Java\jdk1.8.0_191   
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190131/IMdUAI4kWhvU.png?imageslim)
+[![3.png](https://i.loli.net/2019/02/23/5c7169123aaf0.png)](https://i.loli.net/2019/02/23/5c7169123aaf0.png)
 
 创建好后可用%JAVA_HOME%作为jdk目录的统一引用路径
 
@@ -74,7 +74,7 @@ tags:
 
 
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190131/tQf6S3yeWAKL.png?imageslim)
+[![4.png](https://i.loli.net/2019/02/23/5c7169124d63b.png)](https://i.loli.net/2019/02/23/5c7169124d63b.png)
 
 为Path变量添加两个变量值
 
@@ -84,7 +84,7 @@ tags:
 
 如果两个变量值加在一起了，它们之间之间要加;
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190131/dgia9ndkh0gT.png?imageslim)
+[![5.png](https://i.loli.net/2019/02/23/5c7169125750e.png)](https://i.loli.net/2019/02/23/5c7169125750e.png)
 
 **CLASSPATH** 
 
@@ -92,7 +92,7 @@ tags:
 
 变量值字符串前面的‘.’表示当前目录，设置CLASSPATH的目的是告诉Java环境在哪可以找到执行Java程序所需要的类或包
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190131/HORvzTOSxjSC.png?imageslim)
+[![6.png](https://i.loli.net/2019/02/23/5c7169124f345.png)](https://i.loli.net/2019/02/23/5c7169124f345.png)
 
 
 
@@ -114,11 +114,11 @@ tags:
 
 进入后下拉到底部下载对应版本
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190208/1futlxy5CUqX.png?imageslim)
+[![1.png](https://i.loli.net/2019/02/23/5c716a7744b93.png)](https://i.loli.net/2019/02/23/5c716a7744b93.png)
 
 下载后解压到除系统盘外其他文件夹(这个下载文件特别大，占用很多空间)，打开文件夹里**SDK Manager**
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190207/ErCHbJk5dIfI.png?imageslim)
+[![2.png](https://i.loli.net/2019/02/23/5c716a7736cdb.png)](https://i.loli.net/2019/02/23/5c716a7736cdb.png)
 
 Android SDK Manager是一个**软件开发工具管理器**，从远程服务器下载开发工具到本地
 
@@ -126,7 +126,7 @@ Android SDK Manager是一个**软件开发工具管理器**，从远程服务器
 
 然后根据如下图片自行安装
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190207/ClUEK88ps9nz.png?imageslim)
+[![2019-02-23_234729.png](https://i.loli.net/2019/02/23/5c716b4646091.png)](https://i.loli.net/2019/02/23/5c716b4646091.png)
 
 **Android SDK环境配置** 
 
@@ -136,7 +136,7 @@ Android SDK Manager是一个**软件开发工具管理器**，从远程服务器
 
 变量值为SDK的安装路径，例如我的为：F:\android-sdk_r24.4.1-windows\android-sdk-windows
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190208/noqIFUtxFsb0.png?imageslim)
+[![4.png](https://i.loli.net/2019/02/23/5c716a7742f55.png)](https://i.loli.net/2019/02/23/5c716a7742f55.png)
 
 **Path**
 
@@ -146,15 +146,15 @@ Android SDK Manager是一个**软件开发工具管理器**，从远程服务器
 
 亲试网上各种教程，用;写在一起后没有配置成功，分开写配置成功
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190208/VL2P6g7DjcW3.png?imageslim)
+[![5.png](https://i.loli.net/2019/02/23/5c716a774b2cf.png)](https://i.loli.net/2019/02/23/5c716a774b2cf.png)
 
 然后在命令行(win+r输入cmd进入），输入adb，出现如下界面
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190208/sJCC02b5R5N9.png?imageslim)
+[![6.png](https://i.loli.net/2019/02/23/5c716a7767e29.png)](https://i.loli.net/2019/02/23/5c716a7767e29.png)
 
 输入android，会出现Android SDK Manager
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190208/q11RSPz9E9D2.png?imageslim)
+[![7.png](https://i.loli.net/2019/02/23/5c716a775eb41.png)](https://i.loli.net/2019/02/23/5c716a775eb41.png)
 
 到这一步，SDK已配置成功了！
 
@@ -166,9 +166,9 @@ Android SDK Manager是一个**软件开发工具管理器**，从远程服务器
 
 Location：http://dl-ssl.google.com/android/eclipse/
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190207/0O4VBgtzrKNS.png?imageslim)
+[![8.png](https://i.loli.net/2019/02/23/5c716a77404ca.png)](https://i.loli.net/2019/02/23/5c716a77404ca.png)
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190207/m17erHsbivWr.png?imageslim)
+[![9.png](https://i.loli.net/2019/02/23/5c716a7769b04.png)](https://i.loli.net/2019/02/23/5c716a7769b04.png)
 
 
 
@@ -176,4 +176,4 @@ Location：http://dl-ssl.google.com/android/eclipse/
 
 到这里，我们在windows上的Android上的开发环境搭建就完成了，这时候，你用Eclipse的File—>New—>Project...新建一个项目的时候，就会看到建立Android项目的选项了
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190207/mOOBbCgruBPp.png?imageslim)
+[![10.png](https://i.loli.net/2019/02/23/5c716a775c412.png)](https://i.loli.net/2019/02/23/5c716a775c412.png)

@@ -5,8 +5,8 @@
     <description>charryglomc</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 Feb 2019 23:30:03 +0800</pubDate>
-    <lastBuildDate>Sat, 23 Feb 2019 23:30:03 +0800</lastBuildDate>
+    <pubDate>Sat, 23 Feb 2019 23:50:31 +0800</pubDate>
+    <lastBuildDate>Sat, 23 Feb 2019 23:50:31 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -349,25 +349,25 @@
 
 &lt;p&gt;百度百科关于&lt;strong&gt;Oracle&lt;/strong&gt;的介绍&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190130/k3GF0kwmJ5iS.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c71684595e54.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c71684595e54.png&quot; alt=&quot;2019-02-23_233505.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;下拉到java，点击&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190130/v03CRTfhcGxm.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716792eccef.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716792eccef.png&quot; alt=&quot;2.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;下载&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190130/F712waosygO2.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c7167930debb.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7167930debb.png&quot; alt=&quot;3.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;2-配置jdk上的变量环境&quot;&gt;2. 配置jdk上的变量环境&lt;/h2&gt;
 
 &lt;p&gt;选择我的电脑，右键属性，点击搞基系统设置&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190130/aKH4VoTvlbkh.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c71691250dba.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c71691250dba.png&quot; alt=&quot;1.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;点击环境变量&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190130/0bQOdov7Et9r.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c71691244f4d.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c71691244f4d.png&quot; alt=&quot;2.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;设置三个系统变量&lt;/p&gt;
 
@@ -375,7 +375,7 @@
 
 &lt;p&gt;例如在我的电脑上，jdk的安装路径为：C:\Program Files\Java\jdk1.8.0_191，所以&lt;strong&gt;JAVA_HOME&lt;/strong&gt;的变量值应设置为：C:\Program Files\Java\jdk1.8.0_191&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190131/IMdUAI4kWhvU.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c7169123aaf0.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7169123aaf0.png&quot; alt=&quot;3.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;创建好后可用%JAVA_HOME%作为jdk目录的统一引用路径&lt;/p&gt;
 
@@ -385,7 +385,7 @@
 
 &lt;p&gt;例如我的Path已存在，点击进去&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190131/tQf6S3yeWAKL.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c7169124d63b.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7169124d63b.png&quot; alt=&quot;4.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;为Path变量添加两个变量值&lt;/p&gt;
 
@@ -395,7 +395,7 @@
 
 &lt;p&gt;如果两个变量值加在一起了，它们之间之间要加;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190131/dgia9ndkh0gT.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c7169125750e.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7169125750e.png&quot; alt=&quot;5.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;CLASSPATH&lt;/strong&gt;&lt;/p&gt;
 
@@ -403,7 +403,7 @@
 
 &lt;p&gt;变量值字符串前面的‘.’表示当前目录，设置CLASSPATH的目的是告诉Java环境在哪可以找到执行Java程序所需要的类或包&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190131/HORvzTOSxjSC.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c7169124f345.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7169124f345.png&quot; alt=&quot;6.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;3-下载安装eclipse&quot;&gt;3. &lt;strong&gt;下载安装Eclipse&lt;/strong&gt;&lt;/h2&gt;
 
@@ -425,11 +425,11 @@
 
 &lt;p&gt;进入后下拉到底部下载对应版本&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190208/1futlxy5CUqX.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716a7744b93.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716a7744b93.png&quot; alt=&quot;1.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;下载后解压到除系统盘外其他文件夹(这个下载文件特别大，占用很多空间)，打开文件夹里&lt;strong&gt;SDK Manager&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190207/ErCHbJk5dIfI.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716a7736cdb.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716a7736cdb.png&quot; alt=&quot;2.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Android SDK Manager是一个&lt;strong&gt;软件开发工具管理器&lt;/strong&gt;，从远程服务器下载开发工具到本地&lt;/p&gt;
 
@@ -437,7 +437,7 @@
 
 &lt;p&gt;然后根据如下图片自行安装&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190207/ClUEK88ps9nz.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716b4646091.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716b4646091.png&quot; alt=&quot;2019-02-23_234729.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Android SDK环境配置&lt;/strong&gt;&lt;/p&gt;
 
@@ -447,7 +447,7 @@
 
 &lt;p&gt;变量值为SDK的安装路径，例如我的为：F:\android-sdk_r24.4.1-windows\android-sdk-windows&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190208/noqIFUtxFsb0.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716a7742f55.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716a7742f55.png&quot; alt=&quot;4.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Path&lt;/strong&gt;&lt;/p&gt;
 
@@ -457,15 +457,15 @@
 
 &lt;p&gt;亲试网上各种教程，用;写在一起后没有配置成功，分开写配置成功&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190208/VL2P6g7DjcW3.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716a774b2cf.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716a774b2cf.png&quot; alt=&quot;5.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;然后在命令行(win+r输入cmd进入），输入adb，出现如下界面&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190208/sJCC02b5R5N9.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716a7767e29.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716a7767e29.png&quot; alt=&quot;6.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;输入android，会出现Android SDK Manager&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190208/q11RSPz9E9D2.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716a775eb41.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716a775eb41.png&quot; alt=&quot;7.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;到这一步，SDK已配置成功了！&lt;/p&gt;
 
@@ -475,15 +475,15 @@
 
 &lt;p&gt;Location：http://dl-ssl.google.com/android/eclipse/&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190207/0O4VBgtzrKNS.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716a77404ca.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716a77404ca.png&quot; alt=&quot;8.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190207/m17erHsbivWr.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716a7769b04.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716a7769b04.png&quot; alt=&quot;9.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;安装完成后，会提示重启，然后Eclipse会根据目录的位置智能地和它相同目录下Android sdk进行关联&lt;/p&gt;
 
 &lt;p&gt;到这里，我们在windows上的Android上的开发环境搭建就完成了，这时候，你用Eclipse的File—&amp;gt;New—&amp;gt;Project…新建一个项目的时候，就会看到建立Android项目的选项了&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190207/mOOBbCgruBPp.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2019/02/23/5c716a775c412.png&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c716a775c412.png&quot; alt=&quot;10.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 Feb 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/02/07/Android%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE(%E5%9F%BA%E4%BA%8EEclipse-ADT)/</link>
