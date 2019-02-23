@@ -1,482 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>charryglomc</title>
+    <title></title>
     <description>charryglomc</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 Feb 2019 21:46:38 +0800</pubDate>
-    <lastBuildDate>Sat, 23 Feb 2019 21:46:38 +0800</lastBuildDate>
+    <pubDate>Sun, 27 Jan 2019 14:20:00 +0800</pubDate>
+    <lastBuildDate>Sun, 27 Jan 2019 14:20:00 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
-    
-      <item>
-        <title>浙大考研收藏</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://grs.zju.edu.cn/yjszs/redir.php?catalog_id=130678&amp;amp;object_id=177123&quot;&gt;&lt;strong&gt;浙江大学考点2019硕士研究生招生考试温馨提示&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://grs.zju.edu.cn/yjszs/redir.php?catalog_id=130678&amp;amp;object_id=173369&quot;&gt;&lt;strong&gt;关于开展2019年全国硕士研究生入学考试诚信教育的通知&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://grs.zju.edu.cn/yjszs/redir.php?catalog_id=130678&amp;amp;object_id=154404&quot;&gt;&lt;strong&gt;2019年硕士招生考试浙江大学报名点现场确认有关事项通知&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://grs.zju.edu.cn/yjszs/redir.php?catalog_id=130678&amp;amp;object_id=147186&quot;&gt;&lt;strong&gt;2019年浙江大学硕士研究生招生考试公告&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://grs.zju.edu.cn/yjszs/redir.php?catalog_id=130678&amp;amp;object_id=145597&quot;&gt;&lt;strong&gt;2019硕士招生简章及招生专业目录&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190219/MuGc6iqlk4YV.jpg?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 19 Feb 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/02/19/%E6%B5%99%E5%A4%A7%E8%80%83%E7%A0%94%E6%94%B6%E8%97%8F/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/02/19/%E6%B5%99%E5%A4%A7%E8%80%83%E7%A0%94%E6%94%B6%E8%97%8F/</guid>
-        
-        <category>考研</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>雨</title>
-        <description>&lt;h3 id=&quot;健康&quot;&gt;健康&lt;/h3&gt;
-
-&lt;p&gt;最近感冒一直没好&lt;/p&gt;
-
-&lt;p&gt;没适应没有暖气的&lt;a href=&quot;https://baike.baidu.com/item/%E5%AE%89%E9%99%86/746007?fr=aladdin&quot;&gt;&lt;strong&gt;家&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;也许只有在生病的时候&lt;/p&gt;
-
-&lt;p&gt;才能体会到健康的重要性&lt;/p&gt;
-
-&lt;h3 id=&quot;新年愿&quot;&gt;新年愿&lt;/h3&gt;
-
-&lt;p&gt;一愿：自己，家人，爱的人身体健康&lt;/p&gt;
-
-&lt;p&gt;二愿：能一起考上那所学校&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190213/sY6873V5OchD.jpg?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;最近在听的一首歌&quot;&gt;最近在听的一首歌&lt;/h3&gt;
-
-&lt;p&gt;http://plnzlwv2k.bkt.clouddn.com/5100_1557_7830_a7be9b863180b0b15c402d4dc4a6407a.mp3&lt;/p&gt;
-
-&lt;h4 id=&quot;认真地老去&quot;&gt;&lt;strong&gt;&lt;em&gt;认真地老去&lt;/em&gt;&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;别错过年轻的疯狂&lt;/p&gt;
-
-&lt;p&gt;时光很匆忙&lt;/p&gt;
-
-&lt;p&gt;别错过日落和夕阳&lt;/p&gt;
-
-&lt;p&gt;不论在哪里呀&lt;/p&gt;
-
-&lt;p&gt;来不及认真地年轻过&lt;/p&gt;
-
-&lt;p&gt;就认真地老去&lt;/p&gt;
-
-&lt;p&gt;又一次和你擦肩而过&lt;/p&gt;
-
-&lt;p&gt;一毫米的距离&lt;/p&gt;
-</description>
-        <pubDate>Wed, 13 Feb 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/02/13/%E9%9B%A8/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/02/13/%E9%9B%A8/</guid>
-        
-        <category>日记</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Android项目目录结构解析</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;eclipse总是出现莫名其妙的bug，于是改投向Android Studio的怀抱&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;android项目根目录&quot;&gt;Android项目根目录&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190209/YdTCezj7XJ51.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;整个项目架构&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;├── .idea
-|	 ├── codeStyles
-|		 └── Project.xml
-|	 ├── .name
-|    ├── gradle.xml
-|    ├── misc.xml
-|    ├── modules.xml
-|    ├── runConfigurations.xml
-|    └── workspace.xml
-		  
-├── app
-|	 ├── libs
-|	 ├── src
-|		 ├── androidTest
-|		 ├── main
-|		 	 ├── java
-|		 	 ├── res
-|		 	 └── AndroidManifest.xml
-|		 └── test
-|    ├── .gitignore
-|    ├── build.gradle
-|    └── proguard-rules.pro
-
-├── gradle
-|	 ├── wrapper
-|		 ├── gradle-wrapper
-|		 └── gradle-wrapper.properties
-
-├── .gitignore
-├── build.gradle
-├── gradle.properties
-├── gradlew
-├── gradlew.bat
-├── local.properties
-├── MyApplication.iml
-└── settings.gradle
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;(java和res部分省略)&lt;/p&gt;
-
-&lt;h4 id=&quot;1-gradle和idea&quot;&gt;1. &lt;strong&gt;gradle&lt;/strong&gt;和.idea&lt;/h4&gt;
-
-&lt;p&gt;这两个目录下放置的都是Android Studio自动生成的一些文件，我们无须关心，也不要去手动编辑它&lt;/p&gt;
-
-&lt;h4 id=&quot;2-app&quot;&gt;2. &lt;strong&gt;app&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;项目中的代码和各种资源几乎放置在这个目录中，后续的开发工作也是在这个目录下进行&lt;/p&gt;
-
-&lt;h4 id=&quot;3-gitignore&quot;&gt;3. .gitignore&lt;/h4&gt;
-
-&lt;p&gt;这个文件是用来将指定的目录或文件排除在版本控制之外的&lt;/p&gt;
-
-&lt;h4 id=&quot;4-buildgradle&quot;&gt;4. build.gradle&lt;/h4&gt;
-
-&lt;p&gt;这是项目全局的gradle构建脚本，通常这个文件中的内容是不需要修改的&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190209/1EEaEI41cmib.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;两处repositories的闭包中都声明了jcenter()这行配置，那么这个jcenter是什么意思呢？其实它是一个代码托管仓库，很多Android开源项目都会选择将代码托管到jcenter上，声明了这行配置之后，我们就可以在项目中轻松引用任何jcenter上的开源项目了。&lt;/p&gt;
-
-&lt;p&gt;接下来，dependencies闭包中使用classpath声明了一个Gradle插件。为什么要声明这个插件呢？因为Gradle并不是专门为构建Android项目而开发的，Java、C++等很多种项目都可以使用Gradle来构建。因此如果我们要想使用它来构建Android项目，则需要声明com.android. tools.build:gradle:3.2.1这个插件&lt;/p&gt;
-
-&lt;h4 id=&quot;5-gradleproperties&quot;&gt;5. gradle.properties&lt;/h4&gt;
-
-&lt;p&gt;这个文件是全局的gradle配置文件，在这里配置的属性将会影响到项目中所有的gradle编译脚本&lt;/p&gt;
-
-&lt;h4 id=&quot;6-gradlew和gradlewbat&quot;&gt;6. gradlew和gradlew.bat&lt;/h4&gt;
-
-&lt;p&gt;这两个文件是用来在命令行界面中执行gradle命令的，其中gradlew是在Linux或Mac系统中使用的，gradlew.bat是在Windows系统中使用的&lt;/p&gt;
-
-&lt;h4 id=&quot;7-localproperties&quot;&gt;7. local.properties&lt;/h4&gt;
-
-&lt;p&gt;这个文件用于指定本机中的Android SDK路径，通常内容都是自动生成的，我们并不需要修改。除非你本机中的Android SDK位置发生了变化，那么就将这个文件中的路径改成新的位置即可&lt;/p&gt;
-
-&lt;h4 id=&quot;8-myapplicationiml&quot;&gt;8. MyApplication.iml&lt;/h4&gt;
-
-&lt;p&gt;iml文件是所有IntelliJ IDEA项目都会自动生成的一个文件（Android Studio是基于IntelliJ IDEA开发的），用于标识这是一个IntelliJ IDEA项目，我们不需要修改这个文件中的任何内容&lt;/p&gt;
-
-&lt;h4 id=&quot;9-settingsgradle&quot;&gt;9. settings.gradle&lt;/h4&gt;
-
-&lt;p&gt;这个文件用于指定项目中所有引入的模块。由于HelloWorld项目中就只有一个app模块，因此该文件中也就只引入了app这一个模块。通常情况下模块的引入都是自动完成的，需要我们手动去修改这个文件的场景可能比较少&lt;/p&gt;
-
-&lt;h4 id=&quot;10-gradle类似php的composer&quot;&gt;10. gradle类似php的composer&lt;/h4&gt;
-
-&lt;p&gt;这个目录下包含了gradle wrapper的配置文件，使用gradle wrapper的方式不需要提前将gradle下载好，而是会自动根据本地的缓存情况决定是否需要联网下载gradle。Android Studio默认没有启用gradle wrapper的方式，如果需要打开，可以点击Android Studio导航栏→File→Settings→Build, Execution, Deployment→Gradle，进行配置更改&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190209/bP7bp6ocPEfr.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;11-app目录&quot;&gt;11. app目录&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190209/Wd33xlG8jQRe.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;libs&lt;/p&gt;
-
-    &lt;p&gt;如果你的项目中使用到了第三方jar包，就需要把这些jar包都放在libs目录下，放在这个目录下的jar包都会被自动添加到构建路径里去&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;.gitignore&lt;/p&gt;
-
-    &lt;p&gt;这个文件用于将app模块内的指定的目录或文件排除在版本控制之外，作用和外层的.gitignore文件类似&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;build.gradle&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这是app模块的gradle构建脚本，这个文件中会指定很多项目构建相关的配置&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190209/690fGybQkaqV.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;第一行应用了一个插件，一般有两种值可选：&lt;/p&gt;
-
-    &lt;p&gt;com.android.application表示这是一个应用程序模块&lt;/p&gt;
-
-    &lt;p&gt;com.android.library表示这是一个库模块。&lt;/p&gt;
-
-    &lt;p&gt;应用程序模块和库模块的最大区别在于，一个是可以直接运行的，一个只能作为代码库依附于别的应用程序模块来运行&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;接下来是一个大的android闭包，在这个闭包中我们可以配置项目构建的各种属性。&lt;/p&gt;
-
-    &lt;p&gt;其中compileSdkVersion用于指定项目的编译版本&lt;/p&gt;
-
-    &lt;p&gt;然后我们看到，这里在android闭包中又嵌套了一个defaultConfig闭包，defaultConfig闭包中可以对项目的更多细节进行配置。&lt;/p&gt;
-
-    &lt;p&gt;其中，applicationId用于指定项目的包名，前面我们在创建项目的时候其实已经指定过包名了，如果你想在后面对其进行修改，那就是在这里修改的。minSdkVersion用于指定项目最低兼容的Android系统版本，这里指定成15表示最低兼容到Android 4.0系统。targetSdkVersion指定的值表示你在该目标版本上已经做过了充分的测试，系统将会为你的应用程序启用一些最新的功能和特性。比如说Android 6.0系统中引入了运行时权限这个功能，如果你将targetSdkVersion指定成23或者更高，那么系统就会为你的程序启用运行时权限功能，而如果你将targetSdkVersion指定成22，那么就说明你的程序最高只在Android 5.1系统上做过充分的测试，Android 6.0系统中引入的新功能自然就不会启用了。剩下的两个属性都比较简单，versionCode用于指定项目的版本号，versionName用于指定项目的版本名&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;接下来我们看一下buildTypes闭包。buildTypes闭包中用于指定生成安装文件的相关配置，通常只会	有两个子闭包，一个是debug，一个是release&lt;/p&gt;
-
-    &lt;p&gt;debug闭包用于指定生成测试版安装文件的配置，release闭包用于指定生成正式版安装文件的配置。另外，debug闭包是可以忽略不写的，因此我们看到上面的代码中就只有一个release闭包。下面来看一下release闭包中的具体内容吧，minifyEnabled用于指定是否对项目的代码进行混淆，true表示混淆，false表示不混淆。proguardFiles用于指定混淆时使用的规则文件，这里指定了两个文件，第一个proguard-android.txt是在Android SDK目录下的，里面是所有项目通用的混淆规则，第二个proguard-rules.pro是在当前项目的根目录下的，里面可以编写当前项目特有的混淆规则。需要注意的是，通过Android Studio直接运行项目生成的都是测试版安装文件&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;接下来还剩一个dependencies闭包。这个闭包的功能非常强大，它可以指定当前项目所有的依赖关系。通常Android Studio项目一共有3种依赖方式：本地依赖、库依赖和远程依赖。本地依赖可以对本地的Jar包或目录添加依赖关系，库依赖可以对项目中的库模块添加依赖关系，远程依赖则可以对jcenter库上的开源项目添加依赖关系。观察一下dependencies闭包中的配置，第一行的implementation fileTree就是一个本地依赖声明，它表示将libs目录下所有.jar后缀的文件都添加到项目的构建路径当中。而第二行和第三行则是远程依赖声明，com.android.support:appcompat-v7:28.0.0就是一个标准的远程依赖库格式，其中com.android.support是域名部分，用于和其他公司的库做区分；appcompat-v7是组名称，用于和同一个公司中不同的库做区分；28.0.0是版本号，用于和同一个库不同的版本做区分。加上这句声明后，Gradle在构建项目时会首先检查一下本地是否已经有这个库的缓存，如果没有的话则会去自动联网下载，然后再添加到项目的构建路径当中。至于库依赖声明这里没有用到，它的基本格式是compile project后面加上要依赖的库名称，比如说有一个库模块的名字叫helper，那么添加这个库的依赖关系只需要加入compile project(‘:helper’)这句声明即可。另外剩下的一句testCompile是用于声明测试用例库的，这个我们暂时用不到，先忽略它就可以了&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;proguard-rules.pro&lt;/p&gt;
-
-    &lt;p&gt;这个文件用于指定项目代码的混淆规则，当代码开发完成后打成安装包文件，如果不希望代码被别人破解，通常会将代码进行混淆，从而让破解者难以阅读&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;src&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190209/B2F6i2f4WtGy.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;androidTest&lt;/p&gt;
-
-    &lt;p&gt;此处是用来编写Android Test测试用例的，可以对项目进行一些自动化测试&lt;/p&gt;
-
-    &lt;ol&gt;
-      &lt;li&gt;test&lt;/li&gt;
-    &lt;/ol&gt;
-
-    &lt;p&gt;此处是用来编写Unit Test测试用例的，是对项目进行自动化测试的另一种方式&lt;/p&gt;
-
-    &lt;ol&gt;
-      &lt;li&gt;main&lt;/li&gt;
-    &lt;/ol&gt;
-
-    &lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190209/JpzHmwnO4KSO.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;java&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;毫无疑问，java目录是放置我们所有Java代码的地方，展开该目录，你将看到我们刚才创建的MainActivity文件就在里面&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190209/J01gWtMhCtHb.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;res&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190209/3dHAqKHFaIQI.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-    &lt;p&gt;这个目录下的内容就有点多了。简单点说，就是你在项目中使用到的所有图片、布局、字符串等资源都要存放在这个目录下。当然这个目录下还有很多子目录，&lt;/p&gt;
-
-    &lt;p&gt;图片放在drawable目录下，&lt;/p&gt;
-
-    &lt;p&gt;布局放在layout目录下，&lt;/p&gt;
-
-    &lt;p&gt;字符串放在values目录下，&lt;/p&gt;
-
-    &lt;p&gt;所以你不用担心会把整个res目录弄得乱糟糟的&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;AndroidManifest.xml&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;这是你整个Android项目的配置文件，你在程序中定义的所有四大组件都需要在这个文件里注册，另外还可以在这个文件中给应用程序添加权限声明&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190209/liJYuvW2TqMH.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-    &lt;p&gt;这段代码表示对HelloWorldActivity这个活动进行注册，没有在AndroidManifest.xml里注册的活动是不能使用的。其中intent-filter里的两行代码非常重要，和表示HelloWorldActivity是这个项目的主活动，在手机上点击应用图标，首先启动的就是这个活动&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-</description>
-        <pubDate>Sat, 09 Feb 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/02/09/Android%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/02/09/Android%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</guid>
-        
-        <category>android</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Android环境配置(基于Eclipse ADT)</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;前两个步骤是java开发环境配置&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;1-在windows中下载和安装jdk&quot;&gt;1. 在windows中下载和安装jdk&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;JDK(Java Development Kit) 是 Java 语言的软件开发工具包(&lt;a href=&quot;https://baike.baidu.com/item/SDK&quot;&gt;SDK&lt;/a&gt;)。&lt;/p&gt;
-
-  &lt;p&gt;SE(JavaSE)，standard edition，标准版，是我们通常用的一个版本，从JDK 5.0开始，改名为Java SE。&lt;/p&gt;
-
-  &lt;p&gt;EE(JavaEE)，enterprise edition，企业版，使用这种JDK开发J2EE应用程序，从JDK 5.0开始，改名为Java EE。从2018年2月26日开始，J2EE改名为Jakarta EE [1-2]  。&lt;/p&gt;
-
-  &lt;p&gt;ME(J2ME)，micro edition，主要用于移动设备、嵌入式设备上的java应用程序，从JDK 5.0开始，改名为Java ME。&lt;/p&gt;
-
-  &lt;p&gt;没有JDK的话，无法编译Java程序（指java源码.java文件），如果想只运行Java程序（指class或jar或其它归档文件），要确保已安装相应的JRE。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;先进入&lt;a href=&quot;https://www.oracle.com&quot;&gt;Oracle的官网&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;百度百科关于&lt;strong&gt;Oracle&lt;/strong&gt;的介绍&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190130/k3GF0kwmJ5iS.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;下拉到java，点击&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190130/v03CRTfhcGxm.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;下载&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190130/F712waosygO2.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-配置jdk上的变量环境&quot;&gt;2. 配置jdk上的变量环境&lt;/h2&gt;
-
-&lt;p&gt;选择我的电脑，右键属性，点击搞基系统设置&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190130/aKH4VoTvlbkh.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;点击环境变量&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190130/0bQOdov7Et9r.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;设置三个系统变量&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JAVA_HOME&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;例如在我的电脑上，jdk的安装路径为：C:\Program Files\Java\jdk1.8.0_191，所以&lt;strong&gt;JAVA_HOME&lt;/strong&gt;的变量值应设置为：C:\Program Files\Java\jdk1.8.0_191&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190131/IMdUAI4kWhvU.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;创建好后可用%JAVA_HOME%作为jdk目录的统一引用路径&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Path&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;如果Path变量不存在，则要新建一个，如若存在，则可直接编辑&lt;/p&gt;
-
-&lt;p&gt;例如我的Path已存在，点击进去&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190131/tQf6S3yeWAKL.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;为Path变量添加两个变量值&lt;/p&gt;
-
-&lt;p&gt;%JAVA_HOME%\bin&lt;/p&gt;
-
-&lt;p&gt;%JAVA_HOME%\jre\bin&lt;/p&gt;
-
-&lt;p&gt;如果两个变量值加在一起了，它们之间之间要加;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190131/dgia9ndkh0gT.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;CLASSPATH&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;变量值为：.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar&lt;/p&gt;
-
-&lt;p&gt;变量值字符串前面的‘.’表示当前目录，设置CLASSPATH的目的是告诉Java环境在哪可以找到执行Java程序所需要的类或包&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190131/HORvzTOSxjSC.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-下载安装eclipse&quot;&gt;3. &lt;strong&gt;下载安装Eclipse&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Eclipse为Java应用程序及Android开发的IDE（集成开发环境）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.eclipse.org/downloads/&quot;&gt;Eclipse下载&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;4-下载安装android-sdk&quot;&gt;4. &lt;strong&gt;下载安装Android SDK&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Android SDK提供了开发Android应用程序所需的API库和构建、测试和调试Android应用程序所需的开发工具&lt;/p&gt;
-
-  &lt;p&gt;Android Studio是Android集成开发工具，基于IntelliJ IDEA，类似Eclipse ADT，本篇文章是基于Eclipse ADT开发环境的配置，如果想用Android Studio，可不下Eclipse。Android Studio是近几年Google推出的，适用于原生开发，并且Google宣布不再支持对Eclipse升级，Android Studio已是未来大势所趋&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;进入&lt;a href=&quot;https://www.androiddevtools.cn/&quot;&gt;Android SDK下载网站&lt;/a&gt;（这里给的是不是官网，下载速度快）&lt;/p&gt;
-
-&lt;p&gt;进入后下拉到底部下载对应版本&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190208/1futlxy5CUqX.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;下载后解压到除系统盘外其他文件夹(这个下载文件特别大，占用很多空间)，打开文件夹里&lt;strong&gt;SDK Manager&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190207/ErCHbJk5dIfI.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Android SDK Manager是一个&lt;strong&gt;软件开发工具管理器&lt;/strong&gt;，从远程服务器下载开发工具到本地&lt;/p&gt;
-
-&lt;p&gt;而AVD Manager是一个&lt;strong&gt;Android虚拟驱动管理器&lt;/strong&gt;，主要用来创建Android模拟器(手机模拟器)&lt;/p&gt;
-
-&lt;p&gt;然后根据如下图片自行安装&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190207/ClUEK88ps9nz.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android SDK环境配置&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;设置三个系统变量&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ANDROID_SDK_HOME&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;变量值为SDK的安装路径，例如我的为：F:\android-sdk_r24.4.1-windows\android-sdk-windows&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190208/noqIFUtxFsb0.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Path&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;一个变量值为：%ANDROID_SDK_HOME%\platform-tools&lt;/p&gt;
-
-&lt;p&gt;另一个变量值为：%ANDROID_SDK_HOME%\tools&lt;/p&gt;
-
-&lt;p&gt;亲试网上各种教程，用;写在一起后没有配置成功，分开写配置成功&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190208/VL2P6g7DjcW3.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;然后在命令行(win+r输入cmd进入），输入adb，出现如下界面&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190208/sJCC02b5R5N9.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;输入android，会出现Android SDK Manager&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190208/q11RSPz9E9D2.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;到这一步，SDK已配置成功了！&lt;/p&gt;
-
-&lt;h2 id=&quot;5-为eclipse安装adt插件&quot;&gt;5. &lt;strong&gt;为Eclipse安装ADT插件&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;启动Eclipse，点击 Help菜单 -&amp;gt; Install New Software… ，点击弹出对话框中的Add… 按钮&lt;/p&gt;
-
-&lt;p&gt;Location：http://dl-ssl.google.com/android/eclipse/&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190207/0O4VBgtzrKNS.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190207/m17erHsbivWr.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;安装完成后，会提示重启，然后Eclipse会根据目录的位置智能地和它相同目录下Android sdk进行关联&lt;/p&gt;
-
-&lt;p&gt;到这里，我们在windows上的Android上的开发环境搭建就完成了，这时候，你用Eclipse的File—&amp;gt;New—&amp;gt;Project…新建一个项目的时候，就会看到建立Android项目的选项了&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190207/mOOBbCgruBPp.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 Feb 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/02/07/Android%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE(%E5%9F%BA%E4%BA%8EEclipse-ADT)/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/02/07/Android%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE(%E5%9F%BA%E4%BA%8EEclipse-ADT)/</guid>
-        
-        <category>android</category>
-        
-        <category>java</category>
-        
-        
-      </item>
     
       <item>
         <title>markdown基本语法</title>
@@ -697,7 +228,7 @@ Draco Malfoy | Slytherin | 90
       </item>
     
       <item>
-        <title>利用github Pages和jekyll创建个人博客</title>
+        <title>利用Github Pages和jekyll创建个人博客</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;不积跬步，无以至千里&lt;/p&gt;
 
@@ -756,7 +287,7 @@ Draco Malfoy | Slytherin | 90
 
 &lt;p&gt;会出现如下图所示的博客界面，不过还得修改下，才能改成你自己的博客&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/ijNmhB0ffe3P.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/kPcB7t&quot;&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/01/21/kPcB7t.md.png&quot; alt=&quot;kPcB7t.md.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;整个网站的架构&quot;&gt;整个网站的架构&lt;/h2&gt;
 
@@ -941,15 +472,15 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 
 &lt;p&gt;记录值为刚才ping的ip地址&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7135bd5b4c1.png&quot; alt=&quot;2019-02-23_175417.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190121/NsJuozcyMOs0.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c71376fa2c06.png&quot; alt=&quot;2019-02-23_200609.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190121/HP4bjbTVE8Lb.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;修改cname&quot;&gt;修改CNAME&lt;/h3&gt;
 
 &lt;p&gt;修改仓库下的CNAME文件内容，改为自己刚注册的域名&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7138f3eff8d.png&quot; alt=&quot;2019-02-23_201306.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190122/9kVWbW747h9K.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;测试&quot;&gt;测试&lt;/h3&gt;
 
@@ -965,7 +496,7 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 
 &lt;p&gt;title，subtitle，date，author，header-img，tags全部由自己设定，最后传文章显示到博客上&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c7139b8799c2.png&quot; alt=&quot;2019-02-23_201612.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190122/WdkrEYR9W5yF.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;传文章&quot;&gt;传文章&lt;/h3&gt;
 
@@ -979,13 +510,13 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 
 &lt;p&gt;点击加号&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c713a781c23b.png&quot; alt=&quot;2019-02-23_201612.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/UFmT5GGrit80.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;​	选择clone，你可以看到你在github上存放的（尚未下载到本地的）项目列表。选中一个想要下载到本地的项目，选择clone Repository，然后选择本地路径以存放项目文件夹。&lt;/p&gt;
 
 &lt;p&gt;项目文件夹可以随意更换位置，不信你可以试试，hhh&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c713ac605a36.png&quot; alt=&quot;2019-02-23_202110.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/NwV0tKmP0yc1.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;2在本地仓库更新网页端的改变-pull&quot;&gt;2.在本地仓库更新网页端的改变 （pull)&lt;/h4&gt;
 
@@ -997,17 +528,17 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 
 &lt;p&gt;然后填下(Summary)标题和注释(Description)就提交(Commit)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c713bd8f0201.png&quot; alt=&quot;2019-02-23_202533.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/1TR5JtqjwrBB.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;commit后，你会发现你的项目历史结点上多了一个新的环，代表你的上一次commit记录,如下图&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c713c3e5b70e.png&quot; alt=&quot;2019-02-23_202632.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/SdrnNV417ys2.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;你可以提交一次，然后点击Sync同步到你的远程仓库，也可以提交多次后迭代，再同步&lt;/p&gt;
 
 &lt;p&gt;同步后，前面的环消失了&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/02/23/5c713cd06ff7c.png&quot; alt=&quot;2019-02-23_202948.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://plnzlwv2k.bkt.clouddn.com/blog/20190127/5xe1DLxuCYVq.png?imageslim&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;4-创建新的分支-creating-new-branch&quot;&gt;4. 创建新的分支 (creating new branch)&lt;/h4&gt;
 
@@ -1067,7 +598,7 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 
 &lt;p&gt;用记事本打开这个文件，在文件末尾行添加Ruby文件夹地址，例如我的是C:/Ruby23-x64,然后保存退出&lt;/p&gt;
 
-&lt;h4 id=&quot;3-安装jekyll&quot;&gt;3. 安装jekyll&lt;/h4&gt;
+&lt;p&gt;#### 3. 安装jekyll&lt;/p&gt;
 
 &lt;p&gt;​	以下命令都是在命令行里输入&lt;/p&gt;
 
