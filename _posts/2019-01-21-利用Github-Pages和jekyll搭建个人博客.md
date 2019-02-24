@@ -86,7 +86,7 @@ tags:
 
 会出现如下图所示的博客界面，不过还得修改下，才能改成你自己的博客
 
-![mark](http://plnzlwv2k.bkt.clouddn.com/blog/20190127/ijNmhB0ffe3P.png?imageslim)
+[![2019-02-24_105839.png](https://i.loli.net/2019/02/24/5c72087af0345.png)](https://i.loli.net/2019/02/24/5c72087af0345.png)
 
 
 
