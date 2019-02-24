@@ -6,7 +6,7 @@ title:      利用github Pages和jekyll创建个人博客
 subtitle:   博客创建过程中踩过的坑与个人心得
 date:       2019-01-21
 author:     春风化雨
-header-img: img/post-19-01-21.jpg
+header-img: img/lyg.jpg
 catalog: true
 tags:
     - github 
